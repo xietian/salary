@@ -1,0 +1,167 @@
+2017-07-25 15:35:47 [::1][-][69eqbsv23nn6buqn5mvak8h8e4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "apidocs/locales/tr.js".' in E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('apidocs/locales...', Array)
+#1 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\api_test_java\web\index.php(23): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\api_test_java\web\index.php(23): yii\base\Application->run()
+#2 {main}
+2017-07-25 15:35:47 [::1][-][69eqbsv23nn6buqn5mvak8h8e4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "apidocs/locales/vi.js".' in E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('apidocs/locales...', Array)
+#1 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\api_test_java\web\index.php(23): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\api_test_java\web\index.php(23): yii\base\Application->run()
+#2 {main}
+2017-07-25 15:36:13 [::1][-][69eqbsv23nn6buqn5mvak8h8e4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "apidocs/locales/tr.js".' in E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('apidocs/locales...', Array)
+#1 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\api_test_java\web\index.php(23): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\api_test_java\web\index.php(23): yii\base\Application->run()
+#2 {main}
+2017-07-25 15:36:13 [::1][-][69eqbsv23nn6buqn5mvak8h8e4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "apidocs/locales/vi.js".' in E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('apidocs/locales...', Array)
+#1 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\api_test_java\web\index.php(23): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\api_test_java\web\index.php(23): yii\base\Application->run()
+#2 {main}
+2017-07-25 15:37:11 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "napi/auth/auth/sms-login".' in E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('napi/auth/auth/...', Array)
+#1 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\wamp64\www\api_test_java\web\index.php(23): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\wamp64\www\api_test_java\web\index.php(23): yii\base\Application->run()
+#2 {main}
+2017-07-25 15:37:11 [::1][-][-][info][application] $_POST = [
+    'mobile' => '15805177742'
+    'code' => '888888'
+    'login_type' => '3'
+    'client_token' => 'mhealth_lc'
+    'device_token' => ''
+    'source_id' => '123456'
+]
+2017-07-26 09:11:29 [::1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class app\modules\transaction\Module does not exist' in E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\di\Container.php:424
+Stack trace:
+#0 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\di\Container.php(424): ReflectionClass->__construct('app\\modules\\tra...')
+#1 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\di\Container.php(364): yii\di\Container->getDependencies('app\\modules\\tra...')
+#2 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('app\\modules\\tra...', Array, Array)
+#3 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\BaseYii.php(346): yii\di\Container->get('app\\modules\\tra...', Array, Array)
+#4 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Module.php(423): yii\BaseYii::createObject(Array, Array)
+#5 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Module.php(581): yii\base\Module->getModule('trans')
+#6 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('trans/account/g...')
+#7 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('trans/account/g...', Array)
+#8 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 E:\wamp64\www\api_test_java\web\index.php(23): yii\base\Application->run()
+#10 {main}
+2017-07-26 09:17:07 [::1][14897460810022][69eqbsv23nn6buqn5mvak8h8e4][error][yiirror\getUserAccount] #0 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\db\Command.php(917): yii\db\Schema->convertException(Object(PDOException), 'select Account_...')
+#1 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#2 E:\wamp64\www\api_test_java\models\transaction\UserAccount.php(28): yii\db\Command->queryOne()
+#3 E:\wamp64\www\api_test_java\services\transaction\UserAccountService.php(27): app\models\transaction\UserAccount->getUserAccount('14897460810022')
+#4 E:\wamp64\www\api_test_java\modules\transaction\controllers\AccountController.php(65): app\services\transaction\UserAccountService->getAccountAmount('14897460810022')
+#5 [internal function]: app\modules\transaction\controllers\AccountController->actionGetAccountAmount()
+#6 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('get-account-amo...', Array)
+#9 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('trans/account/g...', Array)
+#10 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\wamp64\www\api_test_java\web\index.php(23): yii\base\Application->run()
+#12 {main}
+    in E:\wamp64\www\api_test_java\models\transaction\UserAccount.php:34
+    in E:\wamp64\www\api_test_java\services\transaction\UserAccountService.php:27
+    in E:\wamp64\www\api_test_java\modules\transaction\controllers\AccountController.php:65
+2017-07-26 09:17:07 [::1][14897460810022][69eqbsv23nn6buqn5mvak8h8e4][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Response content must not be an array.' in E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\web\Response.php:1020
+Stack trace:
+#0 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\web\Response.php(313): yii\web\Response->prepare()
+#1 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#2 E:\wamp64\www\api_test_java\web\index.php(23): yii\base\Application->run()
+#3 {main}
+2017-07-26 09:17:48 [::1][14897460810022][-][error][yiirror\getUserAccount] #0 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\db\Command.php(917): yii\db\Schema->convertException(Object(PDOException), 'select Account_...')
+#1 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#2 E:\wamp64\www\api_test_java\models\transaction\UserAccount.php(28): yii\db\Command->queryOne()
+#3 E:\wamp64\www\api_test_java\services\transaction\UserAccountService.php(27): app\models\transaction\UserAccount->getUserAccount('14897460810022')
+#4 E:\wamp64\www\api_test_java\modules\transaction\controllers\AccountController.php(66): app\services\transaction\UserAccountService->getAccountAmount('14897460810022')
+#5 [internal function]: app\modules\transaction\controllers\AccountController->actionGetAccountAmount()
+#6 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('get-account-amo...', Array)
+#9 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('trans/account/g...', Array)
+#10 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\wamp64\www\api_test_java\web\index.php(23): yii\base\Application->run()
+#12 {main}
+    in E:\wamp64\www\api_test_java\models\transaction\UserAccount.php:34
+    in E:\wamp64\www\api_test_java\services\transaction\UserAccountService.php:27
+    in E:\wamp64\www\api_test_java\modules\transaction\controllers\AccountController.php:66
+2017-07-26 09:18:44 [::1][14897460810022][-][error][yiirror\getUserAccount] #0 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\db\Command.php(917): yii\db\Schema->convertException(Object(PDOException), 'select Account_...')
+#1 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#2 E:\wamp64\www\api_test_java\models\transaction\UserAccount.php(28): yii\db\Command->queryOne()
+#3 E:\wamp64\www\api_test_java\services\transaction\UserAccountService.php(27): app\models\transaction\UserAccount->getUserAccount('14897460810022')
+#4 E:\wamp64\www\api_test_java\modules\transaction\controllers\AccountController.php(66): app\services\transaction\UserAccountService->getAccountAmount('14897460810022')
+#5 [internal function]: app\modules\transaction\controllers\AccountController->actionGetAccountAmount()
+#6 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('get-account-amo...', Array)
+#9 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('trans/account/g...', Array)
+#10 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\wamp64\www\api_test_java\web\index.php(23): yii\base\Application->run()
+#12 {main}
+    in E:\wamp64\www\api_test_java\models\transaction\UserAccount.php:35
+    in E:\wamp64\www\api_test_java\services\transaction\UserAccountService.php:27
+    in E:\wamp64\www\api_test_java\modules\transaction\controllers\AccountController.php:66
+2017-07-26 09:18:51 [::1][14897460810022][-][error][yiirror\getUserAccount] #0 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\db\Command.php(917): yii\db\Schema->convertException(Object(PDOException), 'select Account_...')
+#1 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#2 E:\wamp64\www\api_test_java\models\transaction\UserAccount.php(28): yii\db\Command->queryOne()
+#3 E:\wamp64\www\api_test_java\services\transaction\UserAccountService.php(27): app\models\transaction\UserAccount->getUserAccount('14897460810022')
+#4 E:\wamp64\www\api_test_java\modules\transaction\controllers\AccountController.php(66): app\services\transaction\UserAccountService->getAccountAmount('14897460810022')
+#5 [internal function]: app\modules\transaction\controllers\AccountController->actionGetAccountAmount()
+#6 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('get-account-amo...', Array)
+#9 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('trans/account/g...', Array)
+#10 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\wamp64\www\api_test_java\web\index.php(23): yii\base\Application->run()
+#12 {main}
+    in E:\wamp64\www\api_test_java\models\transaction\UserAccount.php:35
+    in E:\wamp64\www\api_test_java\services\transaction\UserAccountService.php:27
+    in E:\wamp64\www\api_test_java\modules\transaction\controllers\AccountController.php:66
+2017-07-26 09:19:37 [::1][14897460810022][-][error][yiirror\getUserAccount] #0 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\db\Command.php(917): yii\db\Schema->convertException(Object(PDOException), 'select Account_...')
+#1 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#2 E:\wamp64\www\api_test_java\models\transaction\UserAccount.php(28): yii\db\Command->queryOne()
+#3 E:\wamp64\www\api_test_java\services\transaction\UserAccountService.php(27): app\models\transaction\UserAccount->getUserAccount('14897460810022')
+#4 E:\wamp64\www\api_test_java\modules\transaction\controllers\AccountController.php(66): app\services\transaction\UserAccountService->getAccountAmount('14897460810022')
+#5 [internal function]: app\modules\transaction\controllers\AccountController->actionGetAccountAmount()
+#6 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('get-account-amo...', Array)
+#9 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('trans/account/g...', Array)
+#10 E:\wamp64\www\api_test_java\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\wamp64\www\api_test_java\web\index.php(24): yii\base\Application->run()
+#12 {main}
+    in E:\wamp64\www\api_test_java\models\transaction\UserAccount.php:35
+    in E:\wamp64\www\api_test_java\services\transaction\UserAccountService.php:27
+    in E:\wamp64\www\api_test_java\modules\transaction\controllers\AccountController.php:66

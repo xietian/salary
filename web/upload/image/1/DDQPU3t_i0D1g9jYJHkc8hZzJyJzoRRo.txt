@@ -1,0 +1,6 @@
+2018-07-03 15:23:22,815 - readFile.py [line:81] ERROR - 系统繁忙,错误码为96
+2018-07-03 15:27:05,131 - readFile.py [line:81] ERROR - 系统繁忙,错误码为96
+2018-07-03 15:28:32,340 - readFile.py [line:86] ERROR - <traceback object at 0x00000000031D7508>
+2018-07-03 15:31:14,164 - readFile.py [line:86] ERROR - <traceback object at 0x00000000031E8548>
+2018-07-03 15:32:52,061 - readFile.py [line:88] ERROR - <traceback object at 0x00000000031D7508>
+2018-07-03 15:35:30,190 - readFile.py [line:85] ERROR - 句柄打开

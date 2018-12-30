@@ -1,0 +1,7 @@
+INSERT INTO `db_code` (`shortle`, `currentNo`, `noLen`, `realName`)
+VALUES ('feedback', '900', '4', 'm_ecg_feedback');
+
+INSERT INTO `db_code` (`shortle`, `currentNo`, `noLen`, `realName`) VALUES
+('mopenu',	440,	6,	'reg_m_ecg_open_user');
+
+

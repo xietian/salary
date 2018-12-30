@@ -1,0 +1,40 @@
+-- Adminer 4.2.5 MySQL dump
+
+SET NAMES utf8;
+SET time_zone = '+00:00';
+SET foreign_key_checks = 0;
+SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
+
+SET NAMES utf8mb4;
+
+DROP TABLE IF EXISTS `m_ecg_activity`;
+CREATE TABLE `m_ecg_activity` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '活动编号',
+  `title` varchar(30) NOT NULL COMMENT '活动标题',
+  `key` varchar(30) NOT NULL COMMENT '活动关键词',
+  `state` tinyint(4) NOT NULL COMMENT '活动的状态1：上架。0表示下架',
+  `content` varchar(2000) NOT NULL DEFAULT '' COMMENT '活动内容',
+  `rule` varchar(2000) NOT NULL DEFAULT '' COMMENT '活动规则',
+  `awards_banner_key` varchar(30) NOT NULL DEFAULT '' COMMENT '活动结果key',
+  `ad_banner_key` varchar(30) NOT NULL DEFAULT '' COMMENT '活动广告key',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='活动';
+
+INSERT INTO `m_ecg_activity` (`id`, `title`, `key`, `state`, `content`, `rule`, `awards_banner_key`, `ad_banner_key`) VALUES
+(2,	'测三次送读图次数',	'MeasurePresent',	1,	'',	'',	'measure_result_key',	'measure_key');
+
+DROP TABLE IF EXISTS `m_ecg_activity_user`;
+CREATE TABLE `m_ecg_activity_user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT COMMENT '自增编号',
+  `activity_id` int(11) NOT NULL COMMENT '活动编号',
+  `level` tinyint(4) NOT NULL COMMENT '获奖级别',
+  `awards` varchar(200) NOT NULL COMMENT '奖励内容',
+  `user_id` bigint(20) NOT NULL COMMENT '用户编号',
+  `device_sn` varchar(10) NOT NULL COMMENT '设备号',
+  `present_date` int(11) NOT NULL COMMENT '赠送日期',
+  `created_date` int(11) NOT NULL COMMENT '创建日期',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='获奖用户名单';
+
+
+-- 2018-06-28 08:49:40

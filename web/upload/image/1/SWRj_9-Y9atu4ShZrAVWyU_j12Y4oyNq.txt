@@ -1,0 +1,7 @@
+ALTER TABLE `m_ecg_load_banner`
+ADD `link_url` varchar(200) COLLATE 'utf8mb4_general_ci' NOT NULL DEFAULT '' COMMENT '链接地址' AFTER `url`,
+ADD `duration` varchar(30) COLLATE 'utf8mb4_general_ci' NOT NULL DEFAULT '3000' COMMENT '停留时间3s，为0表示必须手动关闭',
+ADD `can_skip` tinyint NOT NULL DEFAULT '1' COMMENT '是否可以跳过，duration不为0有效' AFTER `duration`;
+
+ALTER TABLE `m_ecg_load_banner`
+ADD `state` tinyint(4) NOT NULL DEFAULT '1' COMMENT '1表示有效 0表示无效';

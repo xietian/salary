@@ -1,0 +1,27 @@
+-- Adminer 4.2.5 MySQL dump
+
+SET NAMES utf8;
+SET time_zone = '+00:00';
+SET foreign_key_checks = 0;
+SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
+
+SET NAMES utf8mb4;
+
+DROP TABLE IF EXISTS `m_ecg_load_banner`;
+CREATE TABLE `m_ecg_load_banner` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `width` int(11) NOT NULL DEFAULT '0' COMMENT '宽度',
+  `height` int(11) NOT NULL DEFAULT '0' COMMENT '长度',
+  `url` varchar(200) NOT NULL COMMENT '访问地址',
+  `app_sys_type` varchar(200) NOT NULL COMMENT 'app系统类型',
+  `app_model` varchar(200) NOT NULL DEFAULT '' COMMENT '机型',
+  `short_key` varchar(30) NOT NULL COMMENT '分类',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='启动图';
+
+INSERT INTO `m_ecg_load_banner` (`id`, `width`, `height`, `url`, `app_sys_type`, `app_model`, `short_key`) VALUES
+(2,	0,	0,	'http://images.mhealth365.com/load_banner/ios/default.png',	'ios',	'default',	'loader_banner'),
+(4,	0,	0,	'http://images.mhealth365.com/load_banner/ios/iphoneX.png',	'ios',	'iPhone X',	'loader_banner'),
+(6,	0,	0,	'http://images.mhealth365.com/load_banner/android/default.png',	'android',	'default',	'loader_banner');
+
+-- 2018-05-14 09:20:48

@@ -1,0 +1,18 @@
+2017-07-25 15:35:47 [::1][-][69eqbsv23nn6buqn5mvak8h8e4][info][yii\web\Session::open] Session started
+    in E:\wamp64\www\api_test_java\views\layouts\main.php:42
+2017-07-25 15:35:47 [::1][-][69eqbsv23nn6buqn5mvak8h8e4][info][yii\web\Session::open] Session started
+    in E:\wamp64\www\api_test_java\views\layouts\main.php:42
+2017-07-25 15:36:13 [::1][-][69eqbsv23nn6buqn5mvak8h8e4][info][yii\web\Session::open] Session started
+    in E:\wamp64\www\api_test_java\views\layouts\main.php:42
+2017-07-25 15:36:13 [::1][-][69eqbsv23nn6buqn5mvak8h8e4][info][yii\web\Session::open] Session started
+    in E:\wamp64\www\api_test_java\views\layouts\main.php:42
+2017-07-26 09:17:07 [::1][14897460810022][69eqbsv23nn6buqn5mvak8h8e4][info][yii\web\Session::open] Session started
+2017-07-26 09:17:07 [::1][14897460810022][69eqbsv23nn6buqn5mvak8h8e4][info][yii\web\User::login] User '14897460810022' logged in from ::1 with duration 0.
+2017-07-26 09:17:48 [::1][14897460810022][-][info][yii\web\Session::open] Session started
+2017-07-26 09:17:48 [::1][14897460810022][-][info][yii\web\User::login] User '14897460810022' logged in from ::1 with duration 0.
+2017-07-26 09:18:44 [::1][14897460810022][-][info][yii\web\Session::open] Session started
+2017-07-26 09:18:44 [::1][14897460810022][-][info][yii\web\User::login] User '14897460810022' logged in from ::1 with duration 0.
+2017-07-26 09:18:51 [::1][14897460810022][-][info][yii\web\Session::open] Session started
+2017-07-26 09:18:51 [::1][14897460810022][-][info][yii\web\User::login] User '14897460810022' logged in from ::1 with duration 0.
+2017-07-26 09:19:37 [::1][14897460810022][-][info][yii\web\Session::open] Session started
+2017-07-26 09:19:37 [::1][14897460810022][-][info][yii\web\User::login] User '14897460810022' logged in from ::1 with duration 0.
