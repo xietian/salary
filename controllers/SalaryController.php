@@ -48,6 +48,7 @@ class SalaryController extends Controller
         $date = strtotime($date);
         $salaryService = new SalaryService();
         $res = $salaryService->getListByMonth($date, $deptId, $userId);
+
         $userList = $res['data']['users'];
         $deptList = $res['data']['depts'];
         $itemList = $res['data']['items'];

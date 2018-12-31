@@ -2,6 +2,10 @@
  * Created by andy on 2018/12/29.
  */
 $(function () {
+    $('.nav-tabs a').click(function (e) {
+        e.preventDefault();
+        window.location.href = $(this).data('url');
+    })
     $(".in").on("change", function () {
         var item_id = $(this).attr("item_id");
         var user_id = $(this).attr("user_id");

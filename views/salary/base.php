@@ -14,7 +14,13 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <h1><?= Html::encode($this->title) ?></h1>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
-<table>
+    <p>
+    <ul class="nav nav-tabs">
+        <li><a href="#" data-url="<?php echo \yii\helpers\Url::to('/salary/index') ?>" data-toggle="tab">工资设置</a></li>
+        <li class="active"><a  href="#" data-url="<?php echo \yii\helpers\Url::to('/salary/base') ?>" data-toggle="tab">基本设置</a></li>
+    </ul>
+    </p>
+<table  class="table table-striped table-bordered">
     <?php
     if (empty($itemList) == false) {
         ?>

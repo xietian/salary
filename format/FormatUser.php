@@ -9,6 +9,7 @@
 namespace app\format;
 
 
+use app\models\Dept;
 use app\models\Factory;
 
 class FormatUser
@@ -21,13 +22,13 @@ class FormatUser
             'username' => $data['username'],
             'sex' => $data['sex'],
             'dept_id' => 0,
-            'factory_name' => '',
+            'dept_name' => '',
         ];
-        if (empty($data['dept_id'])) {
-            $factory = Factory::findOne($data['dept_id']);
-            if (empty($factory) == false) {
-                $newData['factory_name'] = $factory->name;
-                $newData['dept_id'] = $factory->id;
+        if (empty($data['dept_id']) == false) {
+            $dept = Dept::findOne($data['dept_id']);
+            if (empty($dept) == false) {
+                $newData['dept_name'] = $dept->dept_name;
+                $newData['dept_id'] = $dept->dept_id;
             }
         }
         return $newData;

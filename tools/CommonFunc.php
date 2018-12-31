@@ -10,8 +10,13 @@ namespace app\tools;
 
 
 use app\models\Factory;
+use app\models\Project;
+use app\models\ProjectRole;
+use app\models\User;
 use moonland\phpexcel\Excel;
 use Yii;
+use yii\helpers\ArrayHelper;
+use yii\rbac\Role;
 
 class CommonFunc
 {
@@ -26,30 +31,49 @@ class CommonFunc
         return [0 => '否', 1 => '是'];
     }
 
-    /**
-     * 获取工厂列表
-     * @return array|\yii\db\ActiveRecord[]
-     */
-    public static function getFactoryList()
-    {
-        return Factory::find()
-            ->select(['name as value', 'name as  label', 'id as id'])->asArray()->all();
+    public static function getUser($userId){
+       return  empty($userId)?"":User::findOne($userId)->name;
     }
 
     /**
-     * 获取工厂map
+     * 获取项目列表
+     * @return array|\yii\db\ActiveRecord[]
+     */
+    public static function getProjectList()
+    {
+        return Project::find()->where('is_finished=0')->asArray()->all();
+    }
+
+
+    /**
+     * 获取项目map
      * @return array
      */
-    public static function getFactoryListMap()
+    public static function getProjectListMap()
     {
-        $list = self::getFactoryList();
-        $map = [];
-        if (empty($list) == false) {
-            foreach ($list as $rec) {
-                $map[$rec['id']] = $rec['label'];
-            }
-        }
-        return $map;
+        $list = self::getProjectList();
+        return ArrayHelper::map($list, 'id', 'name');
+    }
+
+
+    /**
+     * 获取项目列表
+     * @return array|\yii\db\ActiveRecord[]
+     */
+    public static function getProjectRoleList()
+    {
+        return ProjectRole::find()->asArray()->all();
+    }
+
+
+    /**
+     * 获取项目map
+     * @return array
+     */
+    public static function getProjectRoleListMap()
+    {
+        $list = self::getProjectRoleList();
+        return ArrayHelper::map($list, 'role_id', 'role_name');
     }
 
     /**

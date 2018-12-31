@@ -10,13 +10,24 @@ use yii\helpers\Html;
 $this->title = Yii::t('app', 'Salaries');
 $this->params['breadcrumbs'][] = $this->title;
 ?>
+<style>
+    .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{
+        padding: 0px;
+    }
+    .form-control{
+        padding: 0px;
+    }
+</style>
 <div class="salary-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a(Yii::t('app', 'Create Salary'), ['create'], ['class' => 'btn btn-success']) ?>
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#" data-url="<?php echo \yii\helpers\Url::to('/salary/index') ?>" data-toggle="tab">工资设置</a></li>
+        <li><a  href="#" data-url="<?php echo \yii\helpers\Url::to('/salary/base') ?>" data-toggle="tab">基本设置</a></li>
+    </ul>
     </p>
     <p>月份：<?= DatePicker::widget([
             'id' => 'check_issue_date',
@@ -29,18 +40,18 @@ $this->params['breadcrumbs'][] = $this->title;
             ]
         ]); ?>
 </div> </p>
-<table>
+<table class="table table-striped table-bordered" style="width: 150%">
     <?php
     if (empty($itemList) == false) {
         ?>
         <tr>
-            <td>姓名</td>
-            <td>部门</td>
+            <th>姓名</th>
+            <th>部门</th>
             <?php
             foreach ($itemList as $item) {
                 ?>
-                <td class="header"
-                    style="<?php echo $item['is_hide'] ? 'display: none' : '' ?>"><?php echo $item['item_name'] ?></td>
+                <th
+                    style="<?php echo $item['is_hide'] ? 'display: none' : '' ?>"><?php echo $item['item_name'] ?></th>
                 <?php
             }
             ?></>
@@ -64,7 +75,7 @@ $this->params['breadcrumbs'][] = $this->title;
                         ?>
                         <td style="<?php echo $item['is_hide'] ? 'display: none' : '' ?>">
                             <input type="text" class="form-control in" user_id="<?php echo $user['id'] ?>"
-                                   item_id="<?php echo $item['item_id'] ?>" <?php echo  $item['item_type'] != 1 ? 'readonly="readonly"' : '' ?>
+                                   item_id="<?php echo $item['item_id'] ?>" <?php echo $item['item_type'] != 1 ? 'readonly="readonly"' : '' ?>
                                    value="<?php echo $salaryList[$user['id']][$item['item_id']]['val'] ?>"/>
                         </td>
                         <?php

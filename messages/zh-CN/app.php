@@ -11,6 +11,14 @@ return array(
     'Users' => '用户',
     'Create User' => '新增用户',
 
+    'Project' => '项目',
+    'Projects' => '项目',
+    'Create Project' => '新增项目',
+
+    'Project User' => '项目成员',
+    'Project Users' => '项目',
+    'Create Project User' => '新增项目',
+
 
     'Dept' => '部门',
     'Depts' => '部门',
@@ -32,5 +40,6 @@ return array(
     'Token_Error' => 'Token过期，请重新登录',
     'Token_Empty' => 'Token为空，非法请求',
     'Success' => '请求成功',
+    'Request_Success' => '请求成功',
     'ErrorWithCode' => '系统繁忙,错误码为{0}',
 );

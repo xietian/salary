@@ -1772,3 +1772,2342 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1546080213.541
     'REQUEST_TIME' => 1546080213
 ]
+2018-12-30 10:23:45 [::1][2][v93p0qo3kem6schoun6lolar06][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: salary/undefined' in D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('undefined', Array)
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('salary/undefine...', Array)
+#2 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-12-30 10:23:45 [::1][2][v93p0qo3kem6schoun6lolar06][info][application] $_COOKIE = [
+    '_identity' => 'a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"13NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN\",2592000]\";}'
+    'PHPSESSID' => 'v93p0qo3kem6schoun6lolar06'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:94'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:94/salary/index'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_identity=a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%2213NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN%22%2C2592000%5D%22%3B%7D; PHPSESSID=v93p0qo3kem6schoun6lolar06'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at localhost Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '54208'
+    'REDIRECT_URL' => '/salary/undefined'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/salary/undefined'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546136625.189
+    'REQUEST_TIME' => 1546136625
+]
+2018-12-30 10:24:58 [::1][2][v93p0qo3kem6schoun6lolar06][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "salary/salary/index".' in D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('salary/salary/i...', Array)
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-12-30 10:24:58 [::1][2][v93p0qo3kem6schoun6lolar06][info][application] $_COOKIE = [
+    '_identity' => 'a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"13NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN\",2592000]\";}'
+    'PHPSESSID' => 'v93p0qo3kem6schoun6lolar06'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:94'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:94/salary/index'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_identity=a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%2213NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN%22%2C2592000%5D%22%3B%7D; PHPSESSID=v93p0qo3kem6schoun6lolar06'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at localhost Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '54231'
+    'REDIRECT_URL' => '/salary/salary/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/salary/salary/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546136698.553
+    'REQUEST_TIME' => 1546136698
+]
+2018-12-30 11:02:30 [::1][2][v93p0qo3kem6schoun6lolar06][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Invalid path alias: @app\views\project' in D:\qsplat\www\salary\vendor\yiisoft\yii2\BaseYii.php:152
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2-gii\generators\crud\Generator.php(208): yii\BaseYii::getAlias('@app\\views\\proj...')
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2-gii\generators\crud\Generator.php(175): yii\gii\generators\crud\Generator->getViewPath()
+#2 D:\qsplat\www\salary\vendor\yiisoft\yii2-gii\controllers\DefaultController.php(50): yii\gii\generators\crud\Generator->generate()
+#3 [internal function]: yii\gii\controllers\DefaultController->actionView('crud')
+#4 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('view', Array)
+#7 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('gii/default/vie...', Array)
+#8 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2018-12-30 11:02:30 [::1][2][v93p0qo3kem6schoun6lolar06][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    'Generator' => [
+        'modelClass' => 'app\\models\\Project'
+        'searchModelClass' => 'app\\models\\ProjectSearch'
+        'controllerClass' => 'app\\controllers\\ProjectController'
+        'viewPath' => '@app\\views\\project'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '1'
+        'enablePjax' => '0'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    '_identity' => 'a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"13NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN\",2592000]\";}'
+    'PHPSESSID' => 'v93p0qo3kem6schoun6lolar06'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:94'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:94/gii/crud'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '481'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_identity=a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%2213NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN%22%2C2592000%5D%22%3B%7D; PHPSESSID=v93p0qo3kem6schoun6lolar06'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at localhost Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '55104'
+    'REDIRECT_URL' => '/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/gii/crud'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546138950.328
+    'REQUEST_TIME' => 1546138950
+]
+2018-12-30 11:06:34 [::1][2][v93p0qo3kem6schoun6lolar06][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: D:\qsplat\www\salary\views\project-user\index.php' in D:\qsplat\www\salary\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\qsplat\\www\\s...', Array, Object(app\controllers\ProjectUserController))
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\ProjectUserController))
+#2 D:\qsplat\www\salary\controllers\ProjectUserController.php(44): yii\base\Controller->render('index', Array)
+#3 [internal function]: app\controllers\ProjectUserController->actionIndex()
+#4 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#7 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('project-user/in...', Array)
+#8 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2018-12-30 11:06:34 [::1][2][v93p0qo3kem6schoun6lolar06][info][application] $_COOKIE = [
+    '_identity' => 'a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"13NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN\",2592000]\";}'
+    'PHPSESSID' => 'v93p0qo3kem6schoun6lolar06'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:94'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:94/admin/menu/view?id=22'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_identity=a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%2213NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN%22%2C2592000%5D%22%3B%7D; PHPSESSID=v93p0qo3kem6schoun6lolar06'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at localhost Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '55204'
+    'REDIRECT_URL' => '/project-user/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/project-user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546139194.151
+    'REQUEST_TIME' => 1546139194
+]
+2018-12-30 11:14:19 [::1][2][v93p0qo3kem6schoun6lolar06][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'saler_id' cannot be null' in D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Command.php:844
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Command.php(844): PDOStatement->execute()
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Schema.php(451): yii\db\Command->execute()
+#2 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\ActiveRecord.php(457): yii\db\Schema->insert('<span class="st...', '[<span class="s...')
+#3 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\ActiveRecord.php(427): yii\db\ActiveRecord->insertInternal('<span class="ke...')
+#4 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\BaseActiveRecord.php(598): yii\db\ActiveRecord->insert('<span class="ke...', '<span class="ke...')
+#5 D:\qsplat\www\salary\controllers\ProjectController.php(68): yii\db\BaseActiveRecord->save()
+#6 [internal function]: app\controllers\ProjectController->actionCreate()
+#7 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[]')
+#9 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[]')
+#10 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#11 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'saler_id' cannot be null
+The SQL being executed was: INSERT INTO `oa_project` (`no`, `name`, `desc`, `saler_id`, `customer_id`, `is_expatriated`) VALUES ('A1', 'é¡¹ç›®1', 'é˜¿è¨æ–¯', NULL, NULL, NULL)' in D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `oa...')
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Schema.php(451): yii\db\Command->execute()
+#2 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\ActiveRecord.php(457): yii\db\Schema->insert('<span class="st...', '[<span class="s...')
+#3 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\ActiveRecord.php(427): yii\db\ActiveRecord->insertInternal('<span class="ke...')
+#4 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\BaseActiveRecord.php(598): yii\db\ActiveRecord->insert('<span class="ke...', '<span class="ke...')
+#5 D:\qsplat\www\salary\controllers\ProjectController.php(68): yii\db\BaseActiveRecord->save()
+#6 [internal function]: app\controllers\ProjectController->actionCreate()
+#7 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#8 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[]')
+#9 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[]')
+#10 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#11 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1048
+    [2] => Column 'saler_id' cannot be null
+)
+
+2018-12-30 11:14:19 [::1][2][v93p0qo3kem6schoun6lolar06][info][application] $_POST = [
+    'Project' => [
+        'no' => 'A1'
+        'name' => 'é¡¹ç›®1'
+        'desc' => 'é˜¿è¨æ–¯'
+        'saler_id' => ''
+        'customer_id' => ''
+        'is_expatriated' => ''
+    ]
+]
+
+$_COOKIE = [
+    '_identity' => 'a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"13NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN\",2592000]\";}'
+    'PHPSESSID' => 'v93p0qo3kem6schoun6lolar06'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:94'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:94/project/create'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '180'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_identity=a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%2213NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN%22%2C2592000%5D%22%3B%7D; PHPSESSID=v93p0qo3kem6schoun6lolar06'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at localhost Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '55309'
+    'REDIRECT_URL' => '/project/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/project/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546139659.597
+    'REQUEST_TIME' => 1546139659
+]
+2018-12-30 11:29:27 [::1][2][v93p0qo3kem6schoun6lolar06][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'ArrayHelper' not found' in D:\qsplat\www\salary\views\project-user\_form.php:17
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-12-30 11:29:27 [::1][2][v93p0qo3kem6schoun6lolar06][info][application] $_COOKIE = [
+    '_identity' => 'a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"13NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN\",2592000]\";}'
+    'PHPSESSID' => 'v93p0qo3kem6schoun6lolar06'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:94'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:94/project-user/index'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_identity=a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%2213NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN%22%2C2592000%5D%22%3B%7D; PHPSESSID=v93p0qo3kem6schoun6lolar06'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at localhost Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '55414'
+    'REDIRECT_URL' => '/project-user/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/project-user/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546140567.716
+    'REQUEST_TIME' => 1546140567
+]
+2018-12-30 12:09:04 [::1][2][v93p0qo3kem6schoun6lolar06][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: Columns/Parameters are 1-based' in D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Command.php:282
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Command.php(282): PDOStatement->bindValue(0, ':name', 2)
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Command.php(226): yii\db\Command->bindPendingParams()
+#2 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Command.php(894): yii\db\Command->prepare(true)
+#3 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#4 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#5 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#6 D:\qsplat\www\salary\controllers\ProjectUserController.php(82): yii\db\ActiveQuery->all()
+#7 [internal function]: app\controllers\ProjectUserController->actionQuery()
+#8 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('query', Array)
+#11 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('project-user/qu...', Array)
+#12 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#14 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY093]: Invalid parameter number: Columns/Parameters are 1-based
+Failed to prepare SQL: SELECT * FROM `user` WHERE name like :name LIMIT 10' in D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Command.php:230
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Command.php(894): yii\db\Command->prepare(true)
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#4 D:\qsplat\www\salary\controllers\ProjectUserController.php(82): yii\db\ActiveQuery->all()
+#5 [internal function]: app\controllers\ProjectUserController->actionQuery()
+#6 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('query', Array)
+#9 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('project-user/qu...', Array)
+#10 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => HY093
+    [1] => 0
+)
+
+2018-12-30 12:09:04 [::1][2][v93p0qo3kem6schoun6lolar06][info][application] $_GET = [
+    'q' => 'a'
+]
+
+$_COOKIE = [
+    '_identity' => 'a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"13NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN\",2592000]\";}'
+    'PHPSESSID' => 'v93p0qo3kem6schoun6lolar06'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:94'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:94/project-user/create'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_identity=a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%2213NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN%22%2C2592000%5D%22%3B%7D; PHPSESSID=v93p0qo3kem6schoun6lolar06'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at localhost Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '55986'
+    'REDIRECT_URL' => '/project-user/query'
+    'REDIRECT_QUERY_STRING' => 'q=a'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'q=a'
+    'REQUEST_URI' => '/project-user/query?q=a'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546142944.092
+    'REQUEST_TIME' => 1546142944
+]
+2018-12-30 12:09:04 [::1][2][v93p0qo3kem6schoun6lolar06][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: Columns/Parameters are 1-based' in D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Command.php:282
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Command.php(282): PDOStatement->bindValue(0, ':name', 2)
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Command.php(226): yii\db\Command->bindPendingParams()
+#2 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Command.php(894): yii\db\Command->prepare(true)
+#3 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#4 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#5 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#6 D:\qsplat\www\salary\controllers\ProjectUserController.php(82): yii\db\ActiveQuery->all()
+#7 [internal function]: app\controllers\ProjectUserController->actionQuery()
+#8 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('query', Array)
+#11 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('project-user/qu...', Array)
+#12 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#14 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY093]: Invalid parameter number: Columns/Parameters are 1-based
+Failed to prepare SQL: SELECT * FROM `user` WHERE name like :name LIMIT 10' in D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Command.php:230
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Command.php(894): yii\db\Command->prepare(true)
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#4 D:\qsplat\www\salary\controllers\ProjectUserController.php(82): yii\db\ActiveQuery->all()
+#5 [internal function]: app\controllers\ProjectUserController->actionQuery()
+#6 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('query', Array)
+#9 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('project-user/qu...', Array)
+#10 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => HY093
+    [1] => 0
+)
+
+2018-12-30 12:09:04 [::1][2][v93p0qo3kem6schoun6lolar06][info][application] $_GET = [
+    'q' => 'a'
+]
+
+$_COOKIE = [
+    '_identity' => 'a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"13NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN\",2592000]\";}'
+    'PHPSESSID' => 'v93p0qo3kem6schoun6lolar06'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:94'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:94/project-user/create'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_identity=a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%2213NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN%22%2C2592000%5D%22%3B%7D; PHPSESSID=v93p0qo3kem6schoun6lolar06'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at localhost Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '55982'
+    'REDIRECT_URL' => '/project-user/query'
+    'REDIRECT_QUERY_STRING' => 'q=a'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'q=a'
+    'REQUEST_URI' => '/project-user/query?q=a'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546142944.844
+    'REQUEST_TIME' => 1546142944
+]
+2018-12-30 12:09:10 [::1][2][v93p0qo3kem6schoun6lolar06][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: Columns/Parameters are 1-based' in D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Command.php:282
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Command.php(282): PDOStatement->bindValue(0, ':name', 2)
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Command.php(226): yii\db\Command->bindPendingParams()
+#2 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Command.php(894): yii\db\Command->prepare(true)
+#3 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#4 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#5 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#6 D:\qsplat\www\salary\controllers\ProjectUserController.php(82): yii\db\ActiveQuery->all()
+#7 [internal function]: app\controllers\ProjectUserController->actionQuery()
+#8 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('query', Array)
+#11 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('project-user/qu...', Array)
+#12 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#14 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY093]: Invalid parameter number: Columns/Parameters are 1-based
+Failed to prepare SQL: SELECT * FROM `user` WHERE name like :name LIMIT 10' in D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Command.php:230
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Command.php(894): yii\db\Command->prepare(true)
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 D:\qsplat\www\salary\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#4 D:\qsplat\www\salary\controllers\ProjectUserController.php(82): yii\db\ActiveQuery->all()
+#5 [internal function]: app\controllers\ProjectUserController->actionQuery()
+#6 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('query', Array)
+#9 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('project-user/qu...', Array)
+#10 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => HY093
+    [1] => 0
+)
+
+2018-12-30 12:09:10 [::1][2][v93p0qo3kem6schoun6lolar06][info][application] $_GET = [
+    'q' => 'a'
+]
+
+$_COOKIE = [
+    '_identity' => 'a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"13NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN\",2592000]\";}'
+    'PHPSESSID' => 'v93p0qo3kem6schoun6lolar06'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:94'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:94/project-user/create'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_identity=a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%2213NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN%22%2C2592000%5D%22%3B%7D; PHPSESSID=v93p0qo3kem6schoun6lolar06'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at localhost Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '55996'
+    'REDIRECT_URL' => '/project-user/query'
+    'REDIRECT_QUERY_STRING' => 'q=a'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'q=a'
+    'REQUEST_URI' => '/project-user/query?q=a'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546142950.827
+    'REQUEST_TIME' => 1546142950
+]
+2018-12-30 21:03:13 [::1][2][v93p0qo3kem6schoun6lolar06][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "api".' in D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('api', Array)
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-12-30 21:03:13 [::1][2][v93p0qo3kem6schoun6lolar06][info][application] $_COOKIE = [
+    '_identity' => 'a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"13NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN\",2592000]\";}'
+    'PHPSESSID' => 'v93p0qo3kem6schoun6lolar06'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:94'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_identity=a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%2213NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN%22%2C2592000%5D%22%3B%7D; PHPSESSID=v93p0qo3kem6schoun6lolar06'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at localhost Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '64067'
+    'REDIRECT_URL' => '/api'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546174993.691
+    'REQUEST_TIME' => 1546174993
+]
+2018-12-30 21:03:33 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1".' in D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1', Array)
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-12-30 21:03:33 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => 'a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"13NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN\",2592000]\";}'
+    'PHPSESSID' => 'v93p0qo3kem6schoun6lolar06'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:94'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_identity=a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%2213NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN%22%2C2592000%5D%22%3B%7D; PHPSESSID=v93p0qo3kem6schoun6lolar06'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at localhost Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '64106'
+    'REDIRECT_URL' => '/v1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546175013.157
+    'REQUEST_TIME' => 1546175013
+]
+2018-12-30 21:03:38 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/".' in D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/', Array)
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-12-30 21:03:37 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => 'a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"13NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN\",2592000]\";}'
+    'PHPSESSID' => 'v93p0qo3kem6schoun6lolar06'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:94'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_identity=a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%2213NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN%22%2C2592000%5D%22%3B%7D; PHPSESSID=v93p0qo3kem6schoun6lolar06'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at localhost Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '64116'
+    'REDIRECT_URL' => '/v1/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546175017.94
+    'REQUEST_TIME' => 1546175017
+]
+2018-12-30 21:04:19 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/docs".' in D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/docs', Array)
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-12-30 21:04:19 [::1][-][-][info][application] $_COOKIE = [
+    '_identity' => 'a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"13NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN\",2592000]\";}'
+    'PHPSESSID' => 'v93p0qo3kem6schoun6lolar06'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:94'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_identity=a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%2213NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN%22%2C2592000%5D%22%3B%7D; PHPSESSID=v93p0qo3kem6schoun6lolar06'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at localhost Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '64182'
+    'REDIRECT_URL' => '/v1/docs'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/docs'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546175059.035
+    'REQUEST_TIME' => 1546175059
+]
+2018-12-30 21:05:00 [::1][2][v93p0qo3kem6schoun6lolar06][error][yii\redis\Connection] Failed to open redis DB connection (127.0.0.1:6379, database=6): 10061 - ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+
+    in D:\qsplat\www\salary\services\LoginService.php:56
+    in D:\qsplat\www\salary\services\LoginService.php:56
+    in D:\qsplat\www\salary\services\auth\UsersService.php:37
+2018-12-30 21:05:00 [::1][2][v93p0qo3kem6schoun6lolar06][error][yii\db\Exception] exception 'yii\db\Exception' with message 'Failed to open redis DB connection (127.0.0.1:6379, database=6): 10061 - ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+' in D:\qsplat\www\salary\vendor\yiisoft\yii2\redis\Connection.php:294
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\redis\Connection.php(383): yii\redis\Connection->open()
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\redis\Connection.php(355): yii\redis\Connection->executeCommand('select', Array)
+#2 D:\qsplat\www\salary\services\LoginService.php(56): yii\redis\Connection->__call('select', Array)
+#3 D:\qsplat\www\salary\services\LoginService.php(56): yii\redis\Connection->select(2)
+#4 D:\qsplat\www\salary\services\auth\UsersService.php(37): app\services\LoginService::setToken(2)
+#5 D:\qsplat\www\salary\modules\v1\controllers\AuthController.php(94): app\services\auth\UsersService->login('admin', 'e10adc3949ba59a...', '', '')
+#6 [internal function]: app\modules\v1\controllers\AuthController->actionLogin()
+#7 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('login', Array)
+#10 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/auth/login', Array)
+#11 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#13 {main}
+Additional Information:
+ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+
+2018-12-30 21:04:59 [::1][2][v93p0qo3kem6schoun6lolar06][info][application] $_POST = [
+    'username' => 'admin'
+    'password' => 'e10adc3949ba59abbe56e057f20f883e'
+    'openid' => ''
+    'appid' => ''
+]
+
+$_COOKIE = [
+    '_identity' => 'a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"13NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN\",2592000]\";}'
+    'PHPSESSID' => 'v93p0qo3kem6schoun6lolar06'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:94'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:94/docs/'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'CONTENT_LENGTH' => '71'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_identity=a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%2213NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN%22%2C2592000%5D%22%3B%7D; PHPSESSID=v93p0qo3kem6schoun6lolar06'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at localhost Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '64280'
+    'REDIRECT_URL' => '/v1/auth/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/auth/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546175099.326
+    'REQUEST_TIME' => 1546175099
+]
+2018-12-30 21:05:16 [::1][2][v93p0qo3kem6schoun6lolar06][error][yii\redis\Connection] Failed to open redis DB connection (127.0.0.1:6379, database=6): 10061 - ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+
+    in D:\qsplat\www\salary\services\LoginService.php:56
+    in D:\qsplat\www\salary\services\LoginService.php:56
+    in D:\qsplat\www\salary\services\auth\UsersService.php:37
+2018-12-30 21:05:16 [::1][2][v93p0qo3kem6schoun6lolar06][error][yii\db\Exception] exception 'yii\db\Exception' with message 'Failed to open redis DB connection (127.0.0.1:6379, database=6): 10061 - ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+' in D:\qsplat\www\salary\vendor\yiisoft\yii2\redis\Connection.php:294
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\redis\Connection.php(383): yii\redis\Connection->open()
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\redis\Connection.php(355): yii\redis\Connection->executeCommand('select', Array)
+#2 D:\qsplat\www\salary\services\LoginService.php(56): yii\redis\Connection->__call('select', Array)
+#3 D:\qsplat\www\salary\services\LoginService.php(56): yii\redis\Connection->select(2)
+#4 D:\qsplat\www\salary\services\auth\UsersService.php(37): app\services\LoginService::setToken(2)
+#5 D:\qsplat\www\salary\modules\v1\controllers\AuthController.php(94): app\services\auth\UsersService->login('admin', 'e10adc3949ba59a...', '', '')
+#6 [internal function]: app\modules\v1\controllers\AuthController->actionLogin()
+#7 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('login', Array)
+#10 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/auth/login', Array)
+#11 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#13 {main}
+Additional Information:
+ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+
+2018-12-30 21:05:15 [::1][2][v93p0qo3kem6schoun6lolar06][info][application] $_POST = [
+    'username' => 'admin'
+    'password' => 'e10adc3949ba59abbe56e057f20f883e'
+    'openid' => ''
+    'appid' => ''
+]
+
+$_COOKIE = [
+    '_identity' => 'a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"13NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN\",2592000]\";}'
+    'PHPSESSID' => 'v93p0qo3kem6schoun6lolar06'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:94'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:94/docs/'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'CONTENT_LENGTH' => '71'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_identity=a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%2213NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN%22%2C2592000%5D%22%3B%7D; PHPSESSID=v93p0qo3kem6schoun6lolar06'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at localhost Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '64313'
+    'REDIRECT_URL' => '/v1/auth/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/auth/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546175115.129
+    'REQUEST_TIME' => 1546175115
+]
+2018-12-30 21:05:18 [::1][2][v93p0qo3kem6schoun6lolar06][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "docs/vendor/bootstrap.min.css.map".' in D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('docs/vendor/boo...', Array)
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-12-30 21:05:18 [::1][2][v93p0qo3kem6schoun6lolar06][info][application] $_COOKIE = [
+    '_identity' => 'a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"13NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN\",2592000]\";}'
+    'PHPSESSID' => 'v93p0qo3kem6schoun6lolar06'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:94'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ORIGIN' => 'null'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_identity=a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%2213NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN%22%2C2592000%5D%22%3B%7D; PHPSESSID=v93p0qo3kem6schoun6lolar06'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at localhost Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '64321'
+    'REDIRECT_URL' => '/docs/vendor/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/docs/vendor/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546175118.106
+    'REQUEST_TIME' => 1546175118
+]
+2018-12-30 21:05:26 [::1][2][v93p0qo3kem6schoun6lolar06][error][yii\redis\Connection] Failed to open redis DB connection (127.0.0.1:6379, database=6): 10061 - ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+
+    in D:\qsplat\www\salary\services\LoginService.php:56
+    in D:\qsplat\www\salary\services\LoginService.php:56
+    in D:\qsplat\www\salary\services\auth\UsersService.php:37
+2018-12-30 21:05:26 [::1][2][v93p0qo3kem6schoun6lolar06][error][yii\db\Exception] exception 'yii\db\Exception' with message 'Failed to open redis DB connection (127.0.0.1:6379, database=6): 10061 - ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+' in D:\qsplat\www\salary\vendor\yiisoft\yii2\redis\Connection.php:294
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\redis\Connection.php(383): yii\redis\Connection->open()
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\redis\Connection.php(355): yii\redis\Connection->executeCommand('select', Array)
+#2 D:\qsplat\www\salary\services\LoginService.php(56): yii\redis\Connection->__call('select', Array)
+#3 D:\qsplat\www\salary\services\LoginService.php(56): yii\redis\Connection->select(2)
+#4 D:\qsplat\www\salary\services\auth\UsersService.php(37): app\services\LoginService::setToken(2)
+#5 D:\qsplat\www\salary\modules\v1\controllers\AuthController.php(94): app\services\auth\UsersService->login('admin', 'e10adc3949ba59a...', '', '')
+#6 [internal function]: app\modules\v1\controllers\AuthController->actionLogin()
+#7 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('login', Array)
+#10 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/auth/login', Array)
+#11 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#13 {main}
+Additional Information:
+ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+
+2018-12-30 21:05:24 [::1][2][v93p0qo3kem6schoun6lolar06][info][application] $_POST = [
+    'username' => 'admin'
+    'password' => 'e10adc3949ba59abbe56e057f20f883e'
+    'openid' => ''
+    'appid' => ''
+]
+
+$_COOKIE = [
+    '_identity' => 'a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[2,\"13NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN\",2592000]\";}'
+    'PHPSESSID' => 'v93p0qo3kem6schoun6lolar06'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:94'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost:94/docs/'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'CONTENT_LENGTH' => '71'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_identity=a6b01abd49fecb8b4ec8e60393630866f0eac498d841680878d0e3e3c4ee4e18a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B2%2C%2213NkBYnb0RsVRP9mfDiWzb85Q-2NHjSN%22%2C2592000%5D%22%3B%7D; PHPSESSID=v93p0qo3kem6schoun6lolar06'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at localhost Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '64332'
+    'REDIRECT_URL' => '/v1/auth/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/auth/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546175124.837
+    'REQUEST_TIME' => 1546175124
+]
+2018-12-30 21:37:58 [192.168.0.105][-][a2r34d3ra7799kfdt2picifvr5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "docs/vendor/bootstrap.min.css.map".' in D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('docs/vendor/boo...', Array)
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-12-30 21:37:58 [192.168.0.105][-][a2r34d3ra7799kfdt2picifvr5][info][application] $_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '192.168.0.105:94'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ORIGIN' => 'null'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at 192.168.0.105 Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => '192.168.0.105'
+    'SERVER_ADDR' => '192.168.0.105'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '192.168.0.105'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '51396'
+    'REDIRECT_URL' => '/docs/vendor/bootstrap.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/docs/vendor/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546177078.781
+    'REQUEST_TIME' => 1546177078
+]
+2018-12-30 21:39:32 [192.168.0.101][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/user/get-open-info".' in D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/get-ope...', Array)
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-12-30 21:39:31 [192.168.0.101][-][-][info][application] $_POST = [
+    'code' => '023lkk7e1YkKlz0Yte5e1pUh7e1lkk7W'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CHARSET' => 'utf-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx03c87415a2c280be/0/page-frame.html'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 9; ONEPLUS A6000 Build/PKQ1.180716.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158 Mobile Safari/537.36 MicroMessenger/6.7.3.1360(0x2607033D) NetType/WIFI Language/zh_CN Process/appbrand0'
+    'CONTENT_LENGTH' => '37'
+    'HTTP_HOST' => '192.168.0.105:94'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at 192.168.0.105 Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => '192.168.0.105'
+    'SERVER_ADDR' => '192.168.0.105'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '192.168.0.101'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '47792'
+    'REDIRECT_URL' => '/v1/user/get-open-info'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/user/get-open-info'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546177171.808
+    'REQUEST_TIME' => 1546177171
+]
+2018-12-30 21:40:48 [192.168.0.101][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/user/get-open-info".' in D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/get-ope...', Array)
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-12-30 21:40:48 [192.168.0.101][-][-][info][application] $_POST = [
+    'code' => '023lbwGH09swSe25s8GH0dZhGH0lbwGi'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CHARSET' => 'utf-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx03c87415a2c280be/0/page-frame.html'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 9; ONEPLUS A6000 Build/PKQ1.180716.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158 Mobile Safari/537.36 MicroMessenger/6.7.3.1360(0x2607033D) NetType/WIFI Language/zh_CN Process/appbrand2'
+    'CONTENT_LENGTH' => '37'
+    'HTTP_HOST' => '192.168.0.105:94'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at 192.168.0.105 Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => '192.168.0.105'
+    'SERVER_ADDR' => '192.168.0.105'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '192.168.0.101'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '47806'
+    'REDIRECT_URL' => '/v1/user/get-open-info'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/user/get-open-info'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546177248.14
+    'REQUEST_TIME' => 1546177248
+]
+2018-12-30 21:41:14 [192.168.0.101][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Undefined class constant 'ERROR'' in D:\qsplat\www\salary\services\thirdpart\wx\xcx\OauthService.php:42
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-12-30 21:41:14 [192.168.0.101][-][-][info][application] $_POST = [
+    'code' => '023pZ2YW19f1201UhBYW1zLnYW1pZ2YP'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CHARSET' => 'utf-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx03c87415a2c280be/0/page-frame.html'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 9; ONEPLUS A6000 Build/PKQ1.180716.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158 Mobile Safari/537.36 MicroMessenger/6.7.3.1360(0x2607033D) NetType/WIFI Language/zh_CN Process/appbrand0'
+    'CONTENT_LENGTH' => '37'
+    'HTTP_HOST' => '192.168.0.105:94'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at 192.168.0.105 Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => '192.168.0.105'
+    'SERVER_ADDR' => '192.168.0.105'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '192.168.0.101'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '47828'
+    'REDIRECT_URL' => '/v1/auth/get-open-info'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/auth/get-open-info'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546177274.189
+    'REQUEST_TIME' => 1546177274
+]
+2018-12-30 21:42:19 [192.168.0.105][-][a2r34d3ra7799kfdt2picifvr5][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Undefined class constant 'ERROR'' in D:\qsplat\www\salary\services\thirdpart\wx\xcx\OauthService.php:42
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-12-30 21:42:18 [192.168.0.105][-][a2r34d3ra7799kfdt2picifvr5][info][application] $_POST = [
+    'code' => '023pZ2YW19f1201UhBYW1zLnYW1pZ2YP'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'a2r34d3ra7799kfdt2picifvr5'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '192.168.0.105:94'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.0.105:94/docs/'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'CONTENT_LENGTH' => '37'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=a2r34d3ra7799kfdt2picifvr5'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at 192.168.0.105 Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => '192.168.0.105'
+    'SERVER_ADDR' => '192.168.0.105'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '192.168.0.105'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '51924'
+    'REDIRECT_URL' => '/v1/auth/get-open-info'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/auth/get-open-info'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546177338.767
+    'REQUEST_TIME' => 1546177338
+]
+2018-12-30 21:52:41 [192.168.0.101][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/user/auto-login".' in D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/auto-lo...', Array)
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-12-30 21:52:41 [192.168.0.101][-][-][info][application] $_POST = [
+    'openid' => 'oLPDH5by91zXQUGLE7XvYIxC2ZaE'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CHARSET' => 'utf-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx03c87415a2c280be/0/page-frame.html'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 9; ONEPLUS A6000 Build/PKQ1.180716.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158 Mobile Safari/537.36 MicroMessenger/6.7.3.1360(0x2607033D) NetType/WIFI Language/zh_CN Process/appbrand0'
+    'CONTENT_LENGTH' => '35'
+    'HTTP_HOST' => '192.168.0.105:94'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at 192.168.0.105 Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => '192.168.0.105'
+    'SERVER_ADDR' => '192.168.0.105'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '192.168.0.101'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '47942'
+    'REDIRECT_URL' => '/v1/user/auto-login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/user/auto-login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546177961.286
+    'REQUEST_TIME' => 1546177961
+]
+2018-12-30 22:05:40 [192.168.0.101][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/sdk/auth".' in D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/sdk/auth', Array)
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-12-30 22:05:40 [192.168.0.101][-][-][info][application] $_POST = [
+    'app_id' => 'be6b7f4b8b8c15beb2c58ee308905109'
+    'app_secret' => 'b4acc21ac4d05184c8bd5d4cace9030e'
+    'app_package_name' => 'wx8e9df60245d1e6e1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CHARSET' => 'utf-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx03c87415a2c280be/0/page-frame.html'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 9; ONEPLUS A6000 Build/PKQ1.180716.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158 Mobile Safari/537.36 MicroMessenger/6.7.3.1360(0x2607033D) NetType/WIFI Language/zh_CN Process/appbrand2'
+    'CONTENT_LENGTH' => '119'
+    'HTTP_HOST' => '192.168.0.105:94'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at 192.168.0.105 Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => '192.168.0.105'
+    'SERVER_ADDR' => '192.168.0.105'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '192.168.0.101'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '47990'
+    'REDIRECT_URL' => '/v1/sdk/auth'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/sdk/auth'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546178740.49
+    'REQUEST_TIME' => 1546178740
+]
+2018-12-30 22:12:28 [192.168.0.101][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/user/login".' in D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/user/login', Array)
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-12-30 22:12:28 [192.168.0.101][-][-][info][application] $_POST = [
+    'user_name' => 'admin'
+    'openid' => 'oLPDH5by91zXQUGLE7XvYIxC2ZaE'
+    'password' => 'e10adc3949ba59abbe56e057f20f883e'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CHARSET' => 'utf-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx03c87415a2c280be/0/page-frame.html'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 9; ONEPLUS A6000 Build/PKQ1.180716.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158 Mobile Safari/537.36 MicroMessenger/6.7.3.1360(0x2607033D) NetType/WIFI Language/zh_CN Process/appbrand0'
+    'CONTENT_LENGTH' => '93'
+    'HTTP_HOST' => '192.168.0.105:94'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at 192.168.0.105 Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => '192.168.0.105'
+    'SERVER_ADDR' => '192.168.0.105'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '192.168.0.101'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '48038'
+    'REDIRECT_URL' => '/v1/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/user/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546179148.128
+    'REQUEST_TIME' => 1546179148
+]
+2018-12-30 22:16:32 [192.168.0.101][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\Factory' not found' in D:\qsplat\www\salary\format\FormatUser.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-12-30 22:16:31 [192.168.0.101][-][-][info][application] $_POST = [
+    'openid' => 'oLPDH5by91zXQUGLE7XvYIxC2ZaE'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CHARSET' => 'utf-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx03c87415a2c280be/0/page-frame.html'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 9; ONEPLUS A6000 Build/PKQ1.180716.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158 Mobile Safari/537.36 MicroMessenger/6.7.3.1360(0x2607033D) NetType/WIFI Language/zh_CN Process/appbrand0'
+    'CONTENT_LENGTH' => '35'
+    'HTTP_HOST' => '192.168.0.105:94'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at 192.168.0.105 Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => '192.168.0.105'
+    'SERVER_ADDR' => '192.168.0.105'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '192.168.0.101'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '48088'
+    'REDIRECT_URL' => '/v1/auth/auto-login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/auth/auto-login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546179391.868
+    'REQUEST_TIME' => 1546179391
+]
+2018-12-30 22:24:25 [192.168.0.101][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/record/get-record-list".' in D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/record/get-r...', Array)
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-12-30 22:24:24 [192.168.0.101][-][-][info][application] $_POST = [
+    'max' => '10'
+    'page' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CHARSET' => 'utf-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx03c87415a2c280be/0/page-frame.html'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 9; ONEPLUS A6000 Build/PKQ1.180716.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158 Mobile Safari/537.36 MicroMessenger/6.7.3.1360(0x2607033D) NetType/WIFI Language/zh_CN Process/appbrand0'
+    'CONTENT_LENGTH' => '13'
+    'HTTP_HOST' => '192.168.0.105:94'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at 192.168.0.105 Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => '192.168.0.105'
+    'SERVER_ADDR' => '192.168.0.105'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '192.168.0.101'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '48142'
+    'REDIRECT_URL' => '/v1/record/get-record-list'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/record/get-record-list'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546179864.803
+    'REQUEST_TIME' => 1546179864
+]
+2018-12-30 22:24:25 [192.168.0.101][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/record/get-anonymous-records-size".' in D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/record/get-a...', Array)
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-12-30 22:24:24 [192.168.0.101][-][-][info][application] $_POST = [
+    'openid' => 'oLPDH5by91zXQUGLE7XvYIxC2ZaE'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CHARSET' => 'utf-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx03c87415a2c280be/0/page-frame.html'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 9; ONEPLUS A6000 Build/PKQ1.180716.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158 Mobile Safari/537.36 MicroMessenger/6.7.3.1360(0x2607033D) NetType/WIFI Language/zh_CN Process/appbrand0'
+    'CONTENT_LENGTH' => '35'
+    'HTTP_HOST' => '192.168.0.105:94'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at 192.168.0.105 Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => '192.168.0.105'
+    'SERVER_ADDR' => '192.168.0.105'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '192.168.0.101'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '48144'
+    'REDIRECT_URL' => '/v1/record/get-anonymous-records-size'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/record/get-anonymous-records-size'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546179864.809
+    'REQUEST_TIME' => 1546179864
+]
+2018-12-30 22:24:38 [192.168.0.101][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/record/get-anonymous-records-size".' in D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/record/get-a...', Array)
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-12-30 22:24:38 [192.168.0.101][-][-][info][application] $_POST = [
+    'openid' => 'oLPDH5by91zXQUGLE7XvYIxC2ZaE'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CHARSET' => 'utf-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx03c87415a2c280be/0/page-frame.html'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 9; ONEPLUS A6000 Build/PKQ1.180716.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158 Mobile Safari/537.36 MicroMessenger/6.7.3.1360(0x2607033D) NetType/WIFI Language/zh_CN Process/appbrand0'
+    'CONTENT_LENGTH' => '35'
+    'HTTP_HOST' => '192.168.0.105:94'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at 192.168.0.105 Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => '192.168.0.105'
+    'SERVER_ADDR' => '192.168.0.105'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '192.168.0.101'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '48146'
+    'REDIRECT_URL' => '/v1/record/get-anonymous-records-size'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/record/get-anonymous-records-size'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546179878.677
+    'REQUEST_TIME' => 1546179878
+]
+2018-12-30 22:24:38 [192.168.0.101][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/record/get-record-list".' in D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/record/get-r...', Array)
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-12-30 22:24:38 [192.168.0.101][-][-][info][application] $_POST = [
+    'max' => '10'
+    'page' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CHARSET' => 'utf-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx03c87415a2c280be/0/page-frame.html'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 9; ONEPLUS A6000 Build/PKQ1.180716.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158 Mobile Safari/537.36 MicroMessenger/6.7.3.1360(0x2607033D) NetType/WIFI Language/zh_CN Process/appbrand0'
+    'CONTENT_LENGTH' => '13'
+    'HTTP_HOST' => '192.168.0.105:94'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at 192.168.0.105 Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => '192.168.0.105'
+    'SERVER_ADDR' => '192.168.0.105'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '192.168.0.101'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '48148'
+    'REDIRECT_URL' => '/v1/record/get-record-list'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/record/get-record-list'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546179878.677
+    'REQUEST_TIME' => 1546179878
+]
+2018-12-30 22:27:39 [192.168.0.101][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/record/get-anonymous-records-size".' in D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/record/get-a...', Array)
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-12-30 22:27:38 [192.168.0.101][-][-][info][application] $_POST = [
+    'openid' => 'oLPDH5by91zXQUGLE7XvYIxC2ZaE'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CHARSET' => 'utf-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx03c87415a2c280be/0/page-frame.html'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 9; ONEPLUS A6000 Build/PKQ1.180716.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158 Mobile Safari/537.36 MicroMessenger/6.7.3.1360(0x2607033D) NetType/WIFI Language/zh_CN Process/appbrand0'
+    'CONTENT_LENGTH' => '35'
+    'HTTP_HOST' => '192.168.0.105:94'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at 192.168.0.105 Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => '192.168.0.105'
+    'SERVER_ADDR' => '192.168.0.105'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '192.168.0.101'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '48158'
+    'REDIRECT_URL' => '/v1/record/get-anonymous-records-size'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/record/get-anonymous-records-size'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546180058.855
+    'REQUEST_TIME' => 1546180058
+]
+2018-12-30 22:27:42 [192.168.0.101][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/record/get-record-list".' in D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/record/get-r...', Array)
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-12-30 22:27:42 [192.168.0.101][-][-][info][application] $_POST = [
+    'max' => '10'
+    'page' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CHARSET' => 'utf-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx03c87415a2c280be/0/page-frame.html'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 9; ONEPLUS A6000 Build/PKQ1.180716.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158 Mobile Safari/537.36 MicroMessenger/6.7.3.1360(0x2607033D) NetType/WIFI Language/zh_CN Process/appbrand0'
+    'CONTENT_LENGTH' => '13'
+    'HTTP_HOST' => '192.168.0.105:94'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at 192.168.0.105 Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => '192.168.0.105'
+    'SERVER_ADDR' => '192.168.0.105'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '192.168.0.101'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '48156'
+    'REDIRECT_URL' => '/v1/record/get-record-list'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/record/get-record-list'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546180062.08
+    'REQUEST_TIME' => 1546180062
+]
+2018-12-30 22:27:52 [192.168.0.101][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/record/get-record-list".' in D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/record/get-r...', Array)
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-12-30 22:27:52 [192.168.0.101][-][-][info][application] $_POST = [
+    'max' => '10'
+    'page' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CHARSET' => 'utf-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx03c87415a2c280be/0/page-frame.html'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 9; ONEPLUS A6000 Build/PKQ1.180716.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158 Mobile Safari/537.36 MicroMessenger/6.7.3.1360(0x2607033D) NetType/WIFI Language/zh_CN Process/appbrand0'
+    'CONTENT_LENGTH' => '13'
+    'HTTP_HOST' => '192.168.0.105:94'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at 192.168.0.105 Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => '192.168.0.105'
+    'SERVER_ADDR' => '192.168.0.105'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '192.168.0.101'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '48162'
+    'REDIRECT_URL' => '/v1/record/get-record-list'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/record/get-record-list'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546180072.301
+    'REQUEST_TIME' => 1546180072
+]
+2018-12-30 22:27:52 [192.168.0.101][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/record/get-anonymous-records-size".' in D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/record/get-a...', Array)
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-12-30 22:27:52 [192.168.0.101][-][-][info][application] $_POST = [
+    'openid' => 'oLPDH5by91zXQUGLE7XvYIxC2ZaE'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CHARSET' => 'utf-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx03c87415a2c280be/0/page-frame.html'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 9; ONEPLUS A6000 Build/PKQ1.180716.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158 Mobile Safari/537.36 MicroMessenger/6.7.3.1360(0x2607033D) NetType/WIFI Language/zh_CN Process/appbrand0'
+    'CONTENT_LENGTH' => '35'
+    'HTTP_HOST' => '192.168.0.105:94'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at 192.168.0.105 Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => '192.168.0.105'
+    'SERVER_ADDR' => '192.168.0.105'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '192.168.0.101'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '48164'
+    'REDIRECT_URL' => '/v1/record/get-anonymous-records-size'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/record/get-anonymous-records-size'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546180072.348
+    'REQUEST_TIME' => 1546180072
+]
+2018-12-30 22:28:11 [192.168.0.101][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/record/get-anonymous-records-size".' in D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/record/get-a...', Array)
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-12-30 22:28:11 [192.168.0.101][-][-][info][application] $_POST = [
+    'openid' => 'oLPDH5by91zXQUGLE7XvYIxC2ZaE'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CHARSET' => 'utf-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx03c87415a2c280be/0/page-frame.html'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 9; ONEPLUS A6000 Build/PKQ1.180716.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158 Mobile Safari/537.36 MicroMessenger/6.7.3.1360(0x2607033D) NetType/WIFI Language/zh_CN Process/appbrand0'
+    'CONTENT_LENGTH' => '35'
+    'HTTP_HOST' => '192.168.0.105:94'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at 192.168.0.105 Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => '192.168.0.105'
+    'SERVER_ADDR' => '192.168.0.105'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '192.168.0.101'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '48170'
+    'REDIRECT_URL' => '/v1/record/get-anonymous-records-size'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/record/get-anonymous-records-size'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546180091.762
+    'REQUEST_TIME' => 1546180091
+]
+2018-12-30 22:28:29 [192.168.0.101][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "v1/record/get-record-list".' in D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('v1/record/get-r...', Array)
+#1 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in D:\qsplat\www\salary\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\qsplat\www\salary\vendor\yiisoft\yii2\base\Application.php(376): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\qsplat\www\salary\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-12-30 22:28:28 [192.168.0.101][-][-][info][application] $_POST = [
+    'max' => '10'
+    'page' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_CHARSET' => 'utf-8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_REFERER' => 'https://servicewechat.com/wx03c87415a2c280be/0/page-frame.html'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 9; ONEPLUS A6000 Build/PKQ1.180716.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158 Mobile Safari/537.36 MicroMessenger/6.7.3.1360(0x2607033D) NetType/WIFI Language/zh_CN Process/appbrand0'
+    'CONTENT_LENGTH' => '13'
+    'HTTP_HOST' => '192.168.0.105:94'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'PATH' => 'd:\\Program Files\\ImageMagick-7.0.7-Q16;C:\\Program Files (x86)\\Common Files\\NetSarang;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\cURL\\bin;C:\\Program Files\\TortoiseSVN\\bin;D:\\wamp64\\bin\\php\\php5.6.19;%JAVA_HOME%\\bin;C:\\Program Files\\TortoiseSVN\\bin;f:\\Program Files\\erl8.1\\bin;F:\\Program Files\\RabbitMQ Server\\rabbitmq_server-3.6.6\\sbin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\ProgramData\\ComposerSetup\\bin;D:\\qsplat\\bin\\php\\php5.6.19;%JAVA_HOME%\\jre\\lib\\rt.jar;d:\\Program Files\\Git\\cmd;C:\\Program Files\\TortoiseGit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win64) PHP/5.6.19 Server at 192.168.0.105 Port 94</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win64) PHP/5.6.19'
+    'SERVER_NAME' => '192.168.0.105'
+    'SERVER_ADDR' => '192.168.0.105'
+    'SERVER_PORT' => '94'
+    'REMOTE_ADDR' => '192.168.0.101'
+    'DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qsplat/www/salary/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/qsplat/www/salary/web/index.php'
+    'REMOTE_PORT' => '48168'
+    'REDIRECT_URL' => '/v1/record/get-record-list'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/record/get-record-list'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1546180108.58
+    'REQUEST_TIME' => 1546180108
+]
