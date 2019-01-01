@@ -5,7 +5,7 @@ namespace app\models;
 use Yii;
 
 /**
- * This is the model class for table "oa_project".
+ * This is the model class for table "{{%oa_project}}".
  *
  * @property integer $id
  * @property string $no
@@ -15,6 +15,7 @@ use Yii;
  * @property integer $customer_id
  * @property integer $is_expatriated
  * @property integer $is_finished
+ * @property integer $is_deleted
  * @property integer $start_date
  * @property integer $end_date
  */
@@ -25,7 +26,7 @@ class Project extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'oa_project';
+        return '{{%oa_project}}';
     }
 
     /**
@@ -35,7 +36,7 @@ class Project extends \yii\db\ActiveRecord
     {
         return [
             [['no', 'name'], 'required'],
-            [['saler_id', 'customer_id', 'is_expatriated', 'is_finished', 'start_date', 'end_date'], 'integer'],
+            [['saler_id', 'customer_id', 'is_expatriated', 'is_finished', 'is_deleted', 'start_date', 'end_date'], 'integer'],
             [['no'], 'string', 'max' => 30],
             [['name'], 'string', 'max' => 100],
             [['desc'], 'string', 'max' => 2000],
@@ -57,6 +58,7 @@ class Project extends \yii\db\ActiveRecord
             'customer_id' => Yii::t('app', '客户'),
             'is_expatriated' => Yii::t('app', '是否外派'),
             'is_finished' => Yii::t('app', '是否结束'),
+            'is_deleted' => Yii::t('app', '是否结束'),
             'start_date' => Yii::t('app', '开始日期'),
             'end_date' => Yii::t('app', '结束日期'),
         ];

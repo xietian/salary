@@ -26,6 +26,8 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'is_finished')->textInput() ?>
 
+    <?= $form->field($model, 'is_deleted')->textInput() ?>
+
     <?= $form->field($model, 'start_date')->textInput() ?>
 
     <?= $form->field($model, 'end_date')->textInput() ?>

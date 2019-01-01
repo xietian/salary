@@ -32,6 +32,7 @@ $this->params['breadcrumbs'][] = $this->title;
             // 'customer_id',
             // 'is_expatriated',
             // 'is_finished',
+            // 'is_deleted',
             // 'start_date',
             // 'end_date',
 

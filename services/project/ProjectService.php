@@ -76,7 +76,7 @@ class ProjectService
         $project = Project::findOne($id);
         if (empty($project) == false) {
             if (ProjectUserService::hasPower($id, $startUserId)) {
-                $project-> = $name;
+                $project->is_de = $name;
                 if ($project->save()) {
                     return OutTools::success(['project_id' => $project->id], \Yii::t('app', 'Success'));
                 } else {

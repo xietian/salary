@@ -18,7 +18,7 @@ class ProjectSearch extends Project
     public function rules()
     {
         return [
-            [['id', 'saler_id', 'customer_id', 'is_expatriated', 'is_finished', 'start_date', 'end_date'], 'integer'],
+            [['id', 'saler_id', 'customer_id', 'is_expatriated', 'is_finished', 'is_deleted', 'start_date', 'end_date'], 'integer'],
             [['no', 'name', 'desc'], 'safe'],
         ];
     }
@@ -64,6 +64,7 @@ class ProjectSearch extends Project
             'customer_id' => $this->customer_id,
             'is_expatriated' => $this->is_expatriated,
             'is_finished' => $this->is_finished,
+            'is_deleted' => $this->is_deleted,
             'start_date' => $this->start_date,
             'end_date' => $this->end_date,
         ]);

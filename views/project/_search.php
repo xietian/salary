@@ -31,6 +31,8 @@ use yii\widgets\ActiveForm;
 
     <?php // echo $form->field($model, 'is_finished') ?>
 
+    <?php // echo $form->field($model, 'is_deleted') ?>
+
     <?php // echo $form->field($model, 'start_date') ?>
 
     <?php // echo $form->field($model, 'end_date') ?>
