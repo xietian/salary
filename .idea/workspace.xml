@@ -6,87 +6,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54b10a7a-6b06-4e21-9538-41804b4a3346" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/v1/controllers/ProjectController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/UserBindService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/ApiService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/alipay/AlipayService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/alipay/AlipayTradeAppPayRequest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/alipay/AopClient.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/alipay/AopEncrypt.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/alipay/Logger.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/alipay/dev/ras_private_key_pkcs8.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/alipay/dev/rsa_public_key.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/alipay/dev/rsa_public_key_new.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/alipay/prepare/ras_private_key_pkcs8.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/alipay/prepare/rsa_public_key.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/alipay/prepare/rsa_public_key_new.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/alipay/prod/ras_private_key_pkcs8.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/alipay/prod/rsa_public_key.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/alipay/prod/rsa_public_key_new.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/alipay/test/ras_private_key_pkcs8.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/alipay/test/rsa_public_key.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/alipay/test/rsa_public_key_new.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/java/JavaApiService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/java/share/AccountService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/java/share/AggregationService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/report/send/FiberCenter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/report/send/HuaShan.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/report/send/ThirdPlat.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/report/send/ThirdPlatBase.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/report/send/ThirdPlatProxy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/report/send/Xsl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/wx/1335850701/apiclient_cert.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/wx/1335850701/apiclient_key.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/wx/1335850701/rootca.pem" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/wx/WechatService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/wx/wechat/Wechat.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/wx/wechat/WechatConfig.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/wx/wechat/WechatMedia.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/wx/wechat/WechatMenu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/wx/wechat/WechatQrCode.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/wx/wechat/WechatQrContent.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/wx/wechat/WechatQrScene.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/wx/wechat/WechatReceive.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/wx/wechat/WechatTemplateSms.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/wx/wechat/config/WechatTemplateSmsConfig.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/wx/wechat/qrsceneact/DoctorUserAct.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/wx/wechat/qrsceneact/UserFellowAct.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/wx/xcx/OauthService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/wx/xcx/PayService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/thirdpart/wx/xcx/TemplateService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/curl/HttpTools.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/project-user/_form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/project-user/_search.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/project-user/create.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/project-user/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/project-user/update.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/project-user/view.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/format/project/FormatProject.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/format/project/FormatProjectList.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/format/user/FormatUser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/format/user/FormatUserList.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/project/ProjectRoleService.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/project/ProjectService.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/project/ProjectUserService.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/app.log.10" afterPath="$PROJECT_DIR$/runtime/logs/app.log.10" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/app.log.13" afterPath="$PROJECT_DIR$/runtime/logs/app.log.13" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/app.log.14" afterPath="$PROJECT_DIR$/runtime/logs/app.log.14" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/app.log.15" afterPath="$PROJECT_DIR$/runtime/logs/app.log.15" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/app.log.16" afterPath="$PROJECT_DIR$/runtime/logs/app.log.16" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/app.log.17" afterPath="$PROJECT_DIR$/runtime/logs/app.log.17" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/app.log.7" afterPath="$PROJECT_DIR$/runtime/logs/app.log.7" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/app.log.8" afterPath="$PROJECT_DIR$/runtime/logs/app.log.8" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/app.log.9" afterPath="$PROJECT_DIR$/runtime/logs/app.log.9" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/params.php" afterPath="$PROJECT_DIR$/config/params.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/params_dev.php" afterPath="$PROJECT_DIR$/config/params_dev.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/params_test.php" afterPath="$PROJECT_DIR$/config/params_test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/web.php" afterPath="$PROJECT_DIR$/config/web.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/SalaryController.php" afterPath="$PROJECT_DIR$/controllers/SalaryController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/format/FormatUser.php" afterPath="$PROJECT_DIR$/format/FormatUser.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/messages/zh-CN/app.php" afterPath="$PROJECT_DIR$/messages/zh-CN/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/v1/controllers/AuthController.php" afterPath="$PROJECT_DIR$/modules/v1/controllers/AuthController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/cache/18/1893981d427ed24c0c2720092207b032.bin" afterPath="$PROJECT_DIR$/runtime/cache/18/1893981d427ed24c0c2720092207b032.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/cache/6b/6b4a6c6d3e11334936d17fcc97f42233.bin" afterPath="$PROJECT_DIR$/runtime/cache/6b/6b4a6c6d3e11334936d17fcc97f42233.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/cache/f6/f6f51952bcbe65290e5ad62024851d54.bin" afterPath="$PROJECT_DIR$/runtime/cache/f6/f6f51952bcbe65290e5ad62024851d54.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/cache/f9/f90ab1de9bef54e4a8c4bd9bde61f092.bin" afterPath="$PROJECT_DIR$/runtime/cache/f9/f90ab1de9bef54e4a8c4bd9bde61f092.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/v1/controllers/ProjectController.php" afterPath="$PROJECT_DIR$/modules/v1/controllers/ProjectController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/app.log" afterPath="$PROJECT_DIR$/runtime/logs/app.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/app.log.1" afterPath="$PROJECT_DIR$/runtime/logs/app.log.1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/app.log.10" afterPath="$PROJECT_DIR$/runtime/logs/app.log.10" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/app.log.11" afterPath="$PROJECT_DIR$/runtime/logs/app.log.11" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/app.log.12" afterPath="$PROJECT_DIR$/runtime/logs/app.log.12" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/app.log.17" afterPath="$PROJECT_DIR$/runtime/logs/app.log.17" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/app.log.18" afterPath="$PROJECT_DIR$/runtime/logs/app.log.18" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/app.log.19" afterPath="$PROJECT_DIR$/runtime/logs/app.log.19" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/app.log.2" afterPath="$PROJECT_DIR$/runtime/logs/app.log.2" />
@@ -96,16 +38,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/app.log.5" afterPath="$PROJECT_DIR$/runtime/logs/app.log.5" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/app.log.6" afterPath="$PROJECT_DIR$/runtime/logs/app.log.6" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/db.log" afterPath="$PROJECT_DIR$/runtime/logs/db.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth/UsersService.php" afterPath="$PROJECT_DIR$/services/auth/UsersService.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/CommonFunc.php" afterPath="$PROJECT_DIR$/tools/CommonFunc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/ErrorCode.php" afterPath="$PROJECT_DIR$/tools/ErrorCode.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/salary/base.php" afterPath="$PROJECT_DIR$/views/salary/base.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/salary/index.php" afterPath="$PROJECT_DIR$/views/salary/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/docs/api_data.js" afterPath="$PROJECT_DIR$/web/docs/api_data.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/docs/api_data.json" afterPath="$PROJECT_DIR$/web/docs/api_data.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/docs/api_project.js" afterPath="$PROJECT_DIR$/web/docs/api_project.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/docs/api_project.json" afterPath="$PROJECT_DIR$/web/docs/api_project.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/salary.js" afterPath="$PROJECT_DIR$/web/js/salary.js" />
     </list>
     <ignored path="smtServer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -127,44 +63,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AuthController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/v1/controllers/AuthController.php">
+      <file leaf-file-name="ProjectService.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/services/project/ProjectService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="163" column="33" selection-start-line="163" selection-start-column="33" selection-end-line="163" selection-end-column="33" />
+            <state relative-caret-position="464">
+              <caret line="78" column="26" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+              <folding>
+                <element signature="e#122#145#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Project.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/Project.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="22" column="7" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApiService.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/thirdpart/ApiService.php">
+      <file leaf-file-name="ProjectUserService.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/project/ProjectUserService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="574">
+              <caret line="52" column="35" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="35" />
+              <folding>
+                <element signature="e#122#157#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SalaryService.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/auth/SalaryService.php">
+      <file leaf-file-name="FormatUserList.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/format/user/FormatUserList.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="193" column="13" selection-start-line="193" selection-start-column="13" selection-end-line="193" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="567">
+              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+              <folding>
+                <element signature="e#115#159#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="FormatUser.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/format/FormatUser.php">
+        <entry file="file://$PROJECT_DIR$/format/user/FormatUser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
-              <folding>
-                <element signature="e#112#132#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="54">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -172,59 +122,53 @@
       <file leaf-file-name="UsersService.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/auth/UsersService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="653">
-              <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+            <state relative-caret-position="1912">
+              <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginService.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/LoginService.php">
+      <file leaf-file-name="FormatProjectList.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/format/project/FormatProjectList.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="648">
+              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserBindService.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/UserBindService.php">
+      <file leaf-file-name="FormatProject.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/format/project/FormatProject.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+            <state relative-caret-position="621">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProjectRoleService.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/project/ProjectRoleService.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="32" column="101" selection-start-line="32" selection-start-column="101" selection-end-line="32" selection-end-column="101" />
+              <folding>
+                <element signature="e#121#148#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/v1/controllers/ProjectController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="34" column="34" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserSalaryFixedService.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/auth/UserSalaryFixedService.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="49" column="101" selection-start-line="49" selection-start-column="101" selection-end-line="49" selection-end-column="101" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OauthService.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/thirdpart/wx/xcx/OauthService.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="16" column="18" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="18" />
-              <folding />
+            <state relative-caret-position="697">
+              <caret line="164" column="33" selection-start-line="164" selection-start-column="33" selection-end-line="164" selection-end-column="33" />
+              <folding>
+                <element signature="e#127#171#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -244,15 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/format/FormatFactoryList.php" />
-        <option value="$PROJECT_DIR$/models/UserAuth.php" />
-        <option value="$PROJECT_DIR$/modules/v1/controllers/DeviceController.php" />
-        <option value="$PROJECT_DIR$/modules/v1/controllers/FactoryController.php" />
-        <option value="$PROJECT_DIR$/modules/v1/controllers/ResController.php" />
-        <option value="$PROJECT_DIR$/runtime/logs/app.log.1" />
-        <option value="$PROJECT_DIR$/runtime/logs/app.log.5" />
-        <option value="$PROJECT_DIR$/runtime/logs/app.log.6" />
-        <option value="$PROJECT_DIR$/runtime/logs/app.log.7" />
         <option value="$PROJECT_DIR$/services/auth/FactoryResService.php" />
         <option value="$PROJECT_DIR$/services/auth/ResService.php" />
         <option value="$PROJECT_DIR$/sql/change.sql" />
@@ -280,21 +215,30 @@
         <option value="$PROJECT_DIR$/models/ProjectUser.php" />
         <option value="$PROJECT_DIR$/models/Project.php" />
         <option value="$PROJECT_DIR$/controllers/ProjectUserController.php" />
-        <option value="$PROJECT_DIR$/tools/CommonFunc.php" />
         <option value="$PROJECT_DIR$/views/project-user/_form.php" />
         <option value="$PROJECT_DIR$/config/web.php" />
         <option value="$PROJECT_DIR$/tools/curl/HttpTools.php" />
         <option value="$PROJECT_DIR$/config/params_dev.php" />
         <option value="$PROJECT_DIR$/config/params_test.php" />
         <option value="$PROJECT_DIR$/config/params.php" />
-        <option value="$PROJECT_DIR$/messages/zh-CN/app.php" />
         <option value="$PROJECT_DIR$/tools/ErrorCode.php" />
         <option value="$PROJECT_DIR$/services/thirdpart/wx/xcx/OauthService.php" />
         <option value="$PROJECT_DIR$/modules/v1/controllers/AuthController.php" />
         <option value="$PROJECT_DIR$/services/auth/UsersService.php" />
         <option value="$PROJECT_DIR$/format/FormatUser.php" />
         <option value="$PROJECT_DIR$/services/UserBindService.php" />
+        <option value="$PROJECT_DIR$/messages/zh-CN/app.php" />
+        <option value="$PROJECT_DIR$/services/auth/ProjectService.php" />
+        <option value="$PROJECT_DIR$/services/auth/ProjectUserService.php" />
+        <option value="$PROJECT_DIR$/tools/CommonFunc.php" />
+        <option value="$PROJECT_DIR$/format/project/FormatProjectList.php" />
+        <option value="$PROJECT_DIR$/format/user/FormatUser.php" />
+        <option value="$PROJECT_DIR$/format/user/FormatUserList.php" />
+        <option value="$PROJECT_DIR$/format/project/FormatProject.php" />
         <option value="$PROJECT_DIR$/modules/v1/controllers/ProjectController.php" />
+        <option value="$PROJECT_DIR$/services/project/ProjectRoleService.php" />
+        <option value="$PROJECT_DIR$/services/project/ProjectUserService.php" />
+        <option value="$PROJECT_DIR$/services/project/ProjectService.php" />
       </list>
     </option>
   </component>
@@ -309,10 +253,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1942" />
-    <option name="height" value="1166" />
+    <option name="width" value="1920" />
+    <option name="height" value="1144" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -504,6 +446,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="salary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="salary" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="auth" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -558,6 +518,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="salary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="salary" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="messages" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -590,6 +564,42 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="format" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="salary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="salary" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="format" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="salary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="salary" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -608,17 +618,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\qsplat\www\salary\services\project" />
       <recent name="E:\wamp64\www\smtServer\vendor\alivod\src" />
       <recent name="E:\wamp64\www\smtServer\vendor\alivod" />
       <recent name="E:\wamp64\www\smtServer\views" />
       <recent name="E:\wamp64\www\smtServer\web" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\qsplat\www\salary\format\user" />
+      <recent name="D:\qsplat\www\salary\format\project" />
       <recent name="D:\qsplat\www\salary\modules\v1\controllers" />
       <recent name="D:\qsplat\www\salary\tools" />
       <recent name="D:\qsplat\www\salary\services" />
-      <recent name="E:\wamp64\www\salary\views\salary" />
-      <recent name="E:\wamp64\www\smtServer\format" />
     </key>
   </component>
   <component name="RunManager">
@@ -680,21 +691,22 @@
       <workItem from="1543479772115" duration="2389000" />
       <workItem from="1544417456842" duration="4432000" />
       <workItem from="1546045651976" duration="24141000" />
-      <workItem from="1546135781773" duration="17010000" />
+      <workItem from="1546135781773" duration="32354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137158000" />
+    <option name="totallyTimeSpent" value="152502000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1166" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1144" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20416667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2065332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.04468719" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.04468719" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.04467005" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -705,7 +717,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.045652173" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -728,95 +739,17 @@
           <url>file://$PROJECT_DIR$/vendor/yiisoft/yii2-jui/AutoComplete.php</url>
           <line>61</line>
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/format/user/FormatUserList.php</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/models/UserSalaryFixed.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runtime/logs/app.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597531">
-          <caret line="31449" column="1" selection-start-line="31449" selection-start-column="1" selection-end-line="31449" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="999">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/OutFormat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/SalaryFunction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="41" column="38" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/db_dev.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/db_test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/SalaryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/salary/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1431">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#th#2;n#tr#0;n#table#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/salary/base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/salary.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="764">
@@ -851,26 +784,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/ProjectRole.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/project-user/create.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/ProjectUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -895,14 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="183" column="27" selection-start-line="183" selection-start-column="27" selection-end-line="183" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Project.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
           <folding />
         </state>
       </provider>
@@ -943,14 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/CommonFunc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="33" column="34" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -1033,14 +934,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/messages/zh-CN/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
-          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/params_dev.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1081,20 +974,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/v1/controllers/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="163" column="33" selection-start-line="163" selection-start-column="33" selection-end-line="163" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/format/FormatUser.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
           <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
           <folding>
-            <element signature="e#112#132#0#PHP" expanded="true" />
+            <element signature="e#112#132#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1123,18 +1008,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/auth/UsersService.php">
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/db/BaseActiveRecord.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+        <state relative-caret-position="713">
+          <caret line="594" column="20" selection-start-line="594" selection-start-column="20" selection-end-line="594" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/LoginService.php">
+    <entry file="file://$PROJECT_DIR$/models/ProjectUser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="308">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1147,11 +1032,149 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/services/LoginService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/messages/zh-CN/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="41" column="12" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/ProjectRole.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/format/FormatAttach.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/CommonFunc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/UserAuth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/v1/controllers/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/format/user/FormatUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/format/project/FormatProject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/format/project/FormatProjectList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/v1/controllers/ProjectController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="34" column="34" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="34" />
+        <state relative-caret-position="697">
+          <caret line="164" column="33" selection-start-line="164" selection-start-column="33" selection-end-line="164" selection-end-column="33" />
+          <folding>
+            <element signature="e#127#171#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/auth/UsersService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1912">
+          <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/project/ProjectRoleService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="32" column="101" selection-start-line="32" selection-start-column="101" selection-end-line="32" selection-end-column="101" />
+          <folding>
+            <element signature="e#121#148#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/format/user/FormatUserList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding>
+            <element signature="e#115#159#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/project/ProjectUserService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="52" column="35" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="35" />
+          <folding>
+            <element signature="e#122#157#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/project/ProjectService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="78" column="26" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+          <folding>
+            <element signature="e#122#145#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

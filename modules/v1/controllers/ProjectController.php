@@ -7,10 +7,11 @@
  */
 namespace app\modules\v1\controllers;
 
-use app\services\auth\UsersService;
-use app\services\thirdpart\wx\xcx\OauthService;
-use app\tools\OutTools;
+use app\services\project\ProjectUserService;
 use yii\filters\auth\UserAuth;
+use app\services\project\UsersService;
+use app\services\project\ProjectService;
+use app\tools\OutTools;
 use yii\web\Controller;
 
 
@@ -21,7 +22,7 @@ class ProjectController extends Controller
         $behaviors = parent::behaviors();
         $behaviors['authenticator'] = [
             'class' => UserAuth::className(),
-            'except' => ['start', 'list'],
+            'except' => [],
         ];
         return $behaviors;
     }
@@ -31,17 +32,18 @@ class ProjectController extends Controller
      * @api {post}  /v1/project/start  发起项目
      * @apiDescription 发起项目
      * @apiName /v1/project/start
-     * @apiGroup auth
-     * @apiParam {String} username 手机号
-     * @apiParam {String} password 密码
-     * @apiParam {String} openid 第三方编号
-     * @apiParam {String} appid 小程序APPID
+     * @apiGroup project
+     * @apiParam {String} name 项目名称
+     * @apiParam {String} no 项目号
+     * @apiParam {String} desc 项目描述
+     * @apiParam {int} start_date 开始日期
+     * @apiParam {int} end_date 结束日期
      * @apiVersion 3.1.0
      * @apiHeader {String} app_token
      * @apiHeader {String} app_lang
      * @apiHeader {String} app_type
      * @apiHeader {String} app_version
-     * @apiSampleRequest /v1/auth/login
+     * @apiSampleRequest /v1/project/start
      * @apiHeaderExample {string} Header-Example:
      *     {
      *       "app_token": "wVNq2Fcg-zXVcKDYRy_vLq7niv-36As3",
@@ -52,26 +54,10 @@ class ProjectController extends Controller
      * @apiSuccess {String} code 200.
      * @apiSuccess {String} msg 消息
      * @apiSuccess {json} data 数据
-     * @apiSuccess {json} data.user 数据
-     * @apiSuccess {int} data.user.id 用户编号
-     * @apiSuccess {string} data.user.username 登录账户
-     * @apiSuccess {string} data.user.name 用户姓名
-     * @apiSuccess {string} data.user.sex 性别 1女 2 男 0 未知
-     * @apiSuccess {string} data.user.factory_name 厂编号
-     * @apiSuccess {string} data.user.dept_id 厂编号
-     *     * @apiSuccess {string} data.user_token 用户登录令牌
      * @apiSuccessExample {json} 正确实例:
      *{
      * "code": 200,
      * "data": {
-     * "user":{
-     *   "username":"",
-     *   "name":"",
-     *   "sex":1
-     *   "dept_id":1,
-     *   "factory_name":"",
-     * },
-     *  'user_token':''
      * },
      * "msg": "请求成功"
      * }
@@ -85,33 +71,49 @@ class ProjectController extends Controller
      * "data": []
      * }
      */
-    public function actionLogin()
+    public function actionStart()
     {
-        $username = \Yii::$app->request->post('username');
-        $password = \Yii::$app->request->post('password');
-        $openId = \Yii::$app->request->post('openid');
-        $appId = \Yii::$app->request->post('appid');
-        $appId = OauthService::getAppId($appId);
-        $userService = new UsersService();
-        $res = $userService->login($username, $password, $openId, $appId);
+        $userId = \Yii::$app->user->getId();
+        $name = \Yii::$app->request->post('name');
+        $no = \Yii::$app->request->post('no');
+        $desc = \Yii::$app->request->post('desc');
+        $startDate = \Yii::$app->request->post('start_date');
+        if (empty($startDate)) {
+            $startDate = 0;
+        } else {
+            $startDate = strtotime($startDate);
+        }
+        $endDate = \Yii::$app->request->post('end_date');
+        if (empty($endDate)) {
+            $endDate = 0;
+        } else {
+            $endDate = strtotime($endDate);
+        }
+        $isExpatriated = \Yii::$app->request->post('is_expatriated');
+        $projectService = new ProjectService();
+        $res = $projectService->add($name, $no, $desc, $startDate, $endDate, $isExpatriated, $userId);
         OutTools::outJsonP($res);
     }
 
 
     /**
      *
-     * @api {post}  /v1/auth/auto-login  自动登录
-     * @apiDescription 登录
-     * @apiName /v1/auth/auto-login
-     * @apiGroup auth
-     * @apiParam {String} openid 第三方编号
-     * @apiParam {String} appid 小程序APPID
+     * @api {post}  /v1/project/update  更新项目
+     * @apiDescription 更新项目
+     * @apiName /v1/project/update
+     * @apiGroup project
+     * @apiParam {String} id 项目编号
+     * @apiParam {String} name 项目名称
+     * @apiParam {String} no 项目号
+     * @apiParam {String} desc 项目描述
+     * @apiParam {int} start_date 开始日期
+     * @apiParam {int} end_date 结束日期
      * @apiVersion 3.1.0
      * @apiHeader {String} app_token
      * @apiHeader {String} app_lang
      * @apiHeader {String} app_type
      * @apiHeader {String} app_version
-     * @apiSampleRequest /v1/auth/auto-login
+     * @apiSampleRequest /v1/project/start
      * @apiHeaderExample {string} Header-Example:
      *     {
      *       "app_token": "wVNq2Fcg-zXVcKDYRy_vLq7niv-36As3",
@@ -122,26 +124,10 @@ class ProjectController extends Controller
      * @apiSuccess {String} code 200.
      * @apiSuccess {String} msg 消息
      * @apiSuccess {json} data 数据
-     * @apiSuccess {json} data.user 数据
-     * @apiSuccess {int} data.user.id 用户编号
-     * @apiSuccess {string} data.user.username 登录账户
-     * @apiSuccess {string} data.user.name 用户姓名
-     * @apiSuccess {string} data.user.sex 性别 1女 2 男 0 未知
-     * @apiSuccess {string} data.user.factory_name 厂编号
-     * @apiSuccess {string} data.user.dept_id 厂编号
-     *     * @apiSuccess {string} data.user_token 用户登录令牌
      * @apiSuccessExample {json} 正确实例:
      *{
      * "code": 200,
      * "data": {
-     * "user":{
-     *   "username":"",
-     *   "name":"",
-     *   "sex":1
-     *   "dept_id":1,
-     *   "factory_name":"",
-     * },
-     *  'user_token':''
      * },
      * "msg": "请求成功"
      * }
@@ -155,28 +141,46 @@ class ProjectController extends Controller
      * "data": []
      * }
      */
-    public function actionAutoLogin()
+    public function actionUpdate()
     {
-        $openId = \Yii::$app->request->post('openid');
-        $appId = \Yii::$app->request->post('appid');
-        $appId = OauthService::getAppId($appId);
-        $userService = new UsersService();
-        $res = $userService->autoLogin($openId, $appId);
+        $userId = \Yii::$app->user->getId();
+        $id = \Yii::$app->request->post('id');
+        $name = \Yii::$app->request->post('name');
+        $no = \Yii::$app->request->post('no');
+        $desc = \Yii::$app->request->post('desc');
+        $startDate = \Yii::$app->request->post('start_date');
+        if (empty($startDate)) {
+            $startDate = 0;
+        } else {
+            $startDate = strtotime($startDate);
+        }
+        $endDate = \Yii::$app->request->post('end_date');
+        if (empty($endDate)) {
+            $endDate = 0;
+        } else {
+            $endDate = strtotime($endDate);
+        }
+        $isExpatriated = \Yii::$app->request->post('is_expatriated');
+        $projectService = new ProjectService();
+        $res = $projectService->add($name, $no, $desc, $startDate, $endDate, $isExpatriated, $userId);
         OutTools::outJsonP($res);
     }
 
+
     /**
      *
-     * @api {post}  /v1/auth/get  获取登录信息
-     * @apiDescription 获取登录信息
-     * @apiName /auth/auth/get
-     * @apiGroup auth
+     * @api {post}  /v1/project/my-project-list 我参与的项目列表
+     * @apiDescription 获取我参与的项目列表
+     * @apiName /v1/project/my-project-list
+     * @apiParam {String} max 显示个数
+     * @apiParam {String} page 第几页
+     * @apiGroup project
      * @apiVersion 3.1.0
      * @apiHeader {String} app_token
      * @apiHeader {String} app_lang
      * @apiHeader {String} app_type
      * @apiHeader {String} app_version
-     * @apiSampleRequest /v1/auth/get
+     * @apiSampleRequest /v1/project/my-project-list
      * @apiHeaderExample {string} Header-Example:
      *     {
      *       "app_token": "wVNq2Fcg-zXVcKDYRy_vLq7niv-36As3",
@@ -187,27 +191,67 @@ class ProjectController extends Controller
      * @apiSuccess {String} code 200.
      * @apiSuccess {String} msg 消息
      * @apiSuccess {json} data 数据
-     * @apiSuccess {json} data.user 数据
-     * @apiSuccess {int} data.user.id 用户编号
-     * @apiSuccess {string} data.user.username 登录账户
-     * @apiSuccess {string} data.user.name 用户姓名
-     * @apiSuccess {string} data.user.sex 性别 1女 2 男 0 未知
-     * @apiSuccess {string} data.user.factory_name 厂编号
-     * @apiSuccess {string} data.user.dept_id 厂编号
-     * @apiSuccess {string} data.user_token 用户登录令牌
+     * @apiSuccessExample {json} 正确实例:
+     *{
+     * "code": 200,
+     * "data": {
+     * },
+     * "msg": "请求成功"
+     * }
+     * @apiError {String} code 错误码<br>
+     * 0：系统错误<br>
+     * @apiError {String} msg 错误消息
+     * @apiErrorExample {json} 错误实例:
+     * {
+     * "code": "0",
+     * "msg": "服务繁忙",
+     * "data": []
+     * }
+     */
+    public function actionMyProjectList()
+    {
+        $userId = \Yii::$app->user->getId();
+        $max = \Yii::$app->request->post('max', 10);
+        if (empty($max)) {
+            $max = 10;
+        }
+        $page = \Yii::$app->request->post('page', 1);
+        if (empty($page)) {
+            $page = 1;
+        }
+        $projectService = new ProjectService();
+        $res = $projectService->getListMyUserId($userId, $max, $page);
+        OutTools::outJsonP($res);
+    }
+
+    /**
+     *
+     * @api {post}  /v1/project/get-user-list  获取成员列表
+     * @apiDescription 获取成员列表
+     * @apiName /project/project/get-user-list
+     *  @apiParam {String} project_id 项目编号
+     * @apiGroup project
+     * @apiVersion 3.1.0
+     * @apiHeader {String} app_token
+     * @apiHeader {String} app_lang
+     * @apiHeader {String} app_type
+     * @apiHeader {String} app_version
+     * @apiSampleRequest /v1/project/get-user-list
+     * @apiHeaderExample {string} Header-Example:
+     *     {
+     *       "app_token": "wVNq2Fcg-zXVcKDYRy_vLq7niv-36As3",
+     *       "app_lang": "zh",
+     *       "app_type": "smt_client",
+     *       "app_version": "2.4.7",
+     *     }
+     * @apiSuccess {String} code 200.
+     * @apiSuccess {String} msg 消息
+     * @apiSuccess {json} data 数据
      * @apiSuccessExample {json} 正确实例:
      *
      * {
      * "code": 200,
      * "data": {
-     * "user":{
-     *   "username":"",
-     *   "name":"",
-     *   "sex":1
-     *   "dept_id":1,
-     *   "factory_name":"",
-     * },
-     * 'user_token':''
      * },
      * "msg": "请求成功"
      * }
@@ -222,28 +266,29 @@ class ProjectController extends Controller
      * "data": []
      * }
      */
-    public function actionGet()
+    public function actionGetUserList()
     {
-        $user = \Yii::$app->getUser();
-        $userService = new UsersService();
-        $res = $userService->get($user->getId());
+        $userId = \Yii::$app->user->getId();
+        $projectUserService = new ProjectUserService();
+        $projectId = \Yii::$app->request->post('project_id');
+        $res = $projectUserService->getProjectUserList($projectId);
         OutTools::outJsonP($res);
     }
 
 
     /**
      *
-     * @api {post}  /v1/auth/get-open-info  获取openinfo
-     * @apiDescription 获取openinfo
-     * @apiName /auth/auth/get-open-info
-     * @apiGroup auth
-     * @apiParam {String} code 微信code
+     * @api {post}  /v1/project/get 获取项目详情
+     * @apiDescription 获取报告详情
+     * @apiName /project/project/get
+     * @apiGroup project
+     * @apiParam {String} project_id 项目编号
      * @apiVersion 3.1.0
      * @apiHeader {String} app_token
      * @apiHeader {String} app_lang
      * @apiHeader {String} app_type
      * @apiHeader {String} app_version
-     * @apiSampleRequest /v1/auth/get-open-info
+     * @apiSampleRequest /v1/project/get
      * @apiHeaderExample {string} Header-Example:
      *     {
      *       "app_token": "wVNq2Fcg-zXVcKDYRy_vLq7niv-36As3",
@@ -260,7 +305,6 @@ class ProjectController extends Controller
      * {
      * "code": 200,
      * "data": {
-     * 'open_id':''
      * },
      * "msg": "请求成功"
      * }
@@ -275,12 +319,13 @@ class ProjectController extends Controller
      * "data": []
      * }
      */
-    public function actionGetOpenInfo()
+    public function actionGet()
     {
+        $userId = \Yii::$app->user->getId();
         $request = \Yii::$app->request;
-        $code = $request->post('code');
-        $userService = new UsersService();
-        $res = $userService->getOpenInfo($code);
+        $projectId = $request->post('project_id');
+        $projectService = new ProjectService();
+        $res = $projectService->getProjectDetail($projectId, $userId);
         OutTools::outJsonP($res);
     }
 }

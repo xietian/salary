@@ -39,6 +39,7 @@ return array(
     'Not_Found' => '{0}找不到',
     'Token_Error' => 'Token过期，请重新登录',
     'Token_Empty' => 'Token为空，非法请求',
+    'Failure' => '请求失败',
     'Success' => '请求成功',
     'Request_Success' => '请求成功',
     'ErrorWithCode' => '系统繁忙,错误码为{0}',
