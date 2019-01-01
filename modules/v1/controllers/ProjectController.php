@@ -113,7 +113,7 @@ class ProjectController extends Controller
      * @apiHeader {String} app_lang
      * @apiHeader {String} app_type
      * @apiHeader {String} app_version
-     * @apiSampleRequest /v1/project/start
+     * @apiSampleRequest /v1/project/update
      * @apiHeaderExample {string} Header-Example:
      *     {
      *       "app_token": "wVNq2Fcg-zXVcKDYRy_vLq7niv-36As3",
@@ -162,10 +162,59 @@ class ProjectController extends Controller
         }
         $isExpatriated = \Yii::$app->request->post('is_expatriated');
         $projectService = new ProjectService();
-        $res = $projectService->add($name, $no, $desc, $startDate, $endDate, $isExpatriated, $userId);
+        $res = $projectService->update($id, $name, $no, $desc, $startDate, $endDate, $isExpatriated, $userId);
         OutTools::outJsonP($res);
     }
 
+    /**
+     *
+     * @api {post}  /v1/project/delete  删除项目
+     * @apiDescription  删除项目
+     * @apiName /v1/project/delete
+     * @apiGroup project
+     * @apiParam {String} id 项目编号
+     * @apiVersion 3.1.0
+     * @apiHeader {String} app_token
+     * @apiHeader {String} app_lang
+     * @apiHeader {String} app_type
+     * @apiHeader {String} app_version
+     * @apiSampleRequest /v1/project/delete
+     * @apiHeaderExample {string} Header-Example:
+     *     {
+     *       "app_token": "wVNq2Fcg-zXVcKDYRy_vLq7niv-36As3",
+     *       "app_lang": "zh",
+     *       "app_type": "smt_client",
+     *       "app_version": "2.4.7",
+     *     }
+     * @apiSuccess {String} code 200.
+     * @apiSuccess {String} msg 消息
+     * @apiSuccess {json} data 数据
+     * @apiSuccessExample {json} 正确实例:
+     *{
+     * "code": 200,
+     * "data": {
+     * },
+     * "msg": "请求成功"
+     * }
+     * @apiError {String} code 错误码<br>
+     * 0：系统错误<br>
+     * @apiError {String} msg 错误消息
+     * @apiErrorExample {json} 错误实例:
+     * {
+     * "code": "0",
+     * "msg": "服务繁忙",
+     * "data": []
+     * }
+     */
+    public function actionDelete()
+    {
+        $userId = \Yii::$app->user->getId();
+        $id = \Yii::$app->request->post('id');
+
+        $projectService = new ProjectService();
+        $res = $projectService->delete($id, $userId);
+        OutTools::outJsonP($res);
+    }
 
     /**
      *
@@ -229,7 +278,7 @@ class ProjectController extends Controller
      * @api {post}  /v1/project/get-user-list  获取成员列表
      * @apiDescription 获取成员列表
      * @apiName /project/project/get-user-list
-     *  @apiParam {String} project_id 项目编号
+     * @apiParam {String} project_id 项目编号
      * @apiGroup project
      * @apiVersion 3.1.0
      * @apiHeader {String} app_token

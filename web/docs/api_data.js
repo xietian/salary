@@ -984,6 +984,137 @@ define({ "api": [
   },
   {
     "type": "post",
+    "url": "/v1/project/delete",
+    "title": "删除项目",
+    "description": "<p>删除项目</p>",
+    "name": "_v1_project_delete",
+    "group": "project",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "id",
+            "description": "<p>项目编号</p>"
+          }
+        ]
+      }
+    },
+    "version": "3.1.0",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "app_token",
+            "description": ""
+          },
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "app_lang",
+            "description": ""
+          },
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "app_type",
+            "description": ""
+          },
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "app_version",
+            "description": ""
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Header-Example:",
+          "content": "{\n  \"app_token\": \"wVNq2Fcg-zXVcKDYRy_vLq7niv-36As3\",\n  \"app_lang\": \"zh\",\n  \"app_type\": \"smt_client\",\n  \"app_version\": \"2.4.7\",\n}",
+          "type": "string"
+        }
+      ]
+    },
+    "sampleRequest": [
+      {
+        "url": "/v1/project/delete"
+      }
+    ],
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "code",
+            "description": "<ol start=\"200\"> <li></li> </ol>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "msg",
+            "description": "<p>消息</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "json",
+            "optional": false,
+            "field": "data",
+            "description": "<p>数据</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "正确实例:",
+          "content": "{\n\"code\": 200,\n\"data\": {\n},\n\"msg\": \"请求成功\"\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "error": {
+      "fields": {
+        "Error 4xx": [
+          {
+            "group": "Error 4xx",
+            "type": "String",
+            "optional": false,
+            "field": "code",
+            "description": "<p>错误码<br> 0：系统错误<br></p>"
+          },
+          {
+            "group": "Error 4xx",
+            "type": "String",
+            "optional": false,
+            "field": "msg",
+            "description": "<p>错误消息</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "错误实例:",
+          "content": "{\n\"code\": \"0\",\n\"msg\": \"服务繁忙\",\n\"data\": []\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "modules/v1/controllers/ProjectController.php",
+    "groupTitle": "project"
+  },
+  {
+    "type": "post",
     "url": "/v1/project/my-project-list",
     "title": "我参与的项目列表",
     "description": "<p>获取我参与的项目列表</p>",
@@ -1213,6 +1344,172 @@ define({ "api": [
     "sampleRequest": [
       {
         "url": "/v1/project/start"
+      }
+    ],
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "code",
+            "description": "<ol start=\"200\"> <li></li> </ol>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "msg",
+            "description": "<p>消息</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "json",
+            "optional": false,
+            "field": "data",
+            "description": "<p>数据</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "正确实例:",
+          "content": "{\n\"code\": 200,\n\"data\": {\n},\n\"msg\": \"请求成功\"\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "error": {
+      "fields": {
+        "Error 4xx": [
+          {
+            "group": "Error 4xx",
+            "type": "String",
+            "optional": false,
+            "field": "code",
+            "description": "<p>错误码<br> 0：系统错误<br></p>"
+          },
+          {
+            "group": "Error 4xx",
+            "type": "String",
+            "optional": false,
+            "field": "msg",
+            "description": "<p>错误消息</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "错误实例:",
+          "content": "{\n\"code\": \"0\",\n\"msg\": \"服务繁忙\",\n\"data\": []\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "modules/v1/controllers/ProjectController.php",
+    "groupTitle": "project"
+  },
+  {
+    "type": "post",
+    "url": "/v1/project/update",
+    "title": "更新项目",
+    "description": "<p>更新项目</p>",
+    "name": "_v1_project_update",
+    "group": "project",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "id",
+            "description": "<p>项目编号</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "name",
+            "description": "<p>项目名称</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "no",
+            "description": "<p>项目号</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "desc",
+            "description": "<p>项目描述</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "int",
+            "optional": false,
+            "field": "start_date",
+            "description": "<p>开始日期</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "int",
+            "optional": false,
+            "field": "end_date",
+            "description": "<p>结束日期</p>"
+          }
+        ]
+      }
+    },
+    "version": "3.1.0",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "app_token",
+            "description": ""
+          },
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "app_lang",
+            "description": ""
+          },
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "app_type",
+            "description": ""
+          },
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "app_version",
+            "description": ""
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Header-Example:",
+          "content": "{\n  \"app_token\": \"wVNq2Fcg-zXVcKDYRy_vLq7niv-36As3\",\n  \"app_lang\": \"zh\",\n  \"app_type\": \"smt_client\",\n  \"app_version\": \"2.4.7\",\n}",
+          "type": "string"
+        }
+      ]
+    },
+    "sampleRequest": [
+      {
+        "url": "/v1/project/update"
       }
     ],
     "success": {

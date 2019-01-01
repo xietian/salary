@@ -23,7 +23,7 @@ class ProjectService
             $project = new Project(['name' => $name, 'no' => $no, 'desc' => $desc, 'start_date' => $startDate, 'end_date' => $endDate, 'is_expatriated' => $isExpatriated]);
             if ($project->save()) {
                 $projectUserService = new ProjectUserService();
-                $projectUserService->add($project->id, $startUserId, $projectRole->role_id);
+                $projectUserService->add($project->id, $startUserId, $projectRole['role_id']);
                 return OutTools::success(['project_id' => $project->id], \Yii::t('app', 'Success'));
             } else {
                 return OutTools::error(ErrorCode::ERROR, \Yii::t('app', 'Failure'));
@@ -48,7 +48,7 @@ class ProjectService
     {
         $project = Project::findOne($id);
         if (empty($project) == false) {
-            if (ProjectUserService::hasPower($id, $startUserId)) {
+            if (ProjectUserService::hasPower($id, $startUserId, 'deleted')) {
                 $project->name = $name;
                 $project->no = $no;
                 $project->desc = $desc;
@@ -75,8 +75,8 @@ class ProjectService
     {
         $project = Project::findOne($id);
         if (empty($project) == false) {
-            if (ProjectUserService::hasPower($id, $startUserId)) {
-                $project->is_de = $name;
+            if (ProjectUserService::hasPower($id, $startUserId, 'deleted')) {
+                $project->is_deleted = 1;
                 if ($project->save()) {
                     return OutTools::success(['project_id' => $project->id], \Yii::t('app', 'Success'));
                 } else {
@@ -98,7 +98,7 @@ class ProjectService
     public function getListMyUserId($userId, $max = 10, $page = 1)
     {
         $offset = ($page - 1) * $max;
-        $projectList = Project::find()->select("p.*, pu.role_id")->alias('p')->innerJoin("oa_project_user as pu", "pu.project_id = p.id")->where('pu.user_id=:user_id and p.is_finished=0', array(':user_id' => $userId))->offset($offset)->limit($max)->asArray()->all();
+        $projectList = Project::find()->select("p.*, pu.role_id")->alias('p')->innerJoin("oa_project_user as pu", "pu.project_id = p.id")->where('pu.user_id=:user_id and p.is_finished=0 and p.is_deleted=0', array(':user_id' => $userId))->offset($offset)->limit($max)->asArray()->all();
         return OutTools::success(array('list' => FormatProjectList::format($projectList)), \Yii::t('app', 'Request_Success'));
     }
 
@@ -109,7 +109,7 @@ class ProjectService
      */
     public function getProjectDetail($projectId, $userId)
     {
-        $project = Project::find()->select("p.*, pu.role_id")->alias('p')->innerJoin("oa_project_user as pu", "pu.project_id = p.id")->where('pu.user_id=:user_id and p.is_finished=0 and p.id=:project_id', array(':user_id' => $userId, ':project_id' => $projectId))->asArray()->one();
+        $project = Project::find()->select("p.*, pu.role_id")->alias('p')->innerJoin("oa_project_user as pu", "pu.project_id = p.id")->where('pu.user_id=:user_id and p.id=:project_id and p.is_deleted=0', array(':user_id' => $userId, ':project_id' => $projectId))->asArray()->one();
         return OutTools::success(array('project' => FormatProject::format($project)), \Yii::t('app', 'Request_Success'));
     }
 }

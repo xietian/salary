@@ -6,13 +6,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54b10a7a-6b06-4e21-9538-41804b4a3346" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/format/project/FormatProject.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/format/project/FormatProjectList.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/format/user/FormatUser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/format/user/FormatUserList.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/project/ProjectRoleService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/project/ProjectService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/project/ProjectUserService.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/app.log.10" afterPath="$PROJECT_DIR$/runtime/logs/app.log.10" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/app.log.13" afterPath="$PROJECT_DIR$/runtime/logs/app.log.13" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/app.log.14" afterPath="$PROJECT_DIR$/runtime/logs/app.log.14" />
@@ -23,7 +16,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/app.log.8" afterPath="$PROJECT_DIR$/runtime/logs/app.log.8" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/app.log.9" afterPath="$PROJECT_DIR$/runtime/logs/app.log.9" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/messages/zh-CN/app.php" afterPath="$PROJECT_DIR$/messages/zh-CN/app.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/v1/controllers/ProjectController.php" afterPath="$PROJECT_DIR$/modules/v1/controllers/ProjectController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/app.log" afterPath="$PROJECT_DIR$/runtime/logs/app.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/app.log.1" afterPath="$PROJECT_DIR$/runtime/logs/app.log.1" />
@@ -38,6 +30,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/app.log.5" afterPath="$PROJECT_DIR$/runtime/logs/app.log.5" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/app.log.6" afterPath="$PROJECT_DIR$/runtime/logs/app.log.6" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/logs/db.log" afterPath="$PROJECT_DIR$/runtime/logs/db.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/project/ProjectService.php" afterPath="$PROJECT_DIR$/services/project/ProjectService.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/docs/api_data.js" afterPath="$PROJECT_DIR$/web/docs/api_data.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/docs/api_data.json" afterPath="$PROJECT_DIR$/web/docs/api_data.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/docs/api_project.js" afterPath="$PROJECT_DIR$/web/docs/api_project.js" />
@@ -63,11 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProjectService.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProjectService.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/project/ProjectService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="78" column="26" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+            <state relative-caret-position="329">
+              <caret line="25" column="90" selection-start-line="25" selection-start-column="90" selection-end-line="25" selection-end-column="90" />
               <folding>
                 <element signature="e#122#145#0#PHP" expanded="true" />
               </folding>
@@ -78,8 +71,8 @@
       <file leaf-file-name="Project.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/Project.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="22" column="7" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="7" />
+            <state relative-caret-position="621">
+              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -161,11 +154,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProjectController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/v1/controllers/ProjectController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="164" column="33" selection-start-line="164" selection-start-column="33" selection-end-line="164" selection-end-column="33" />
+            <state relative-caret-position="670">
+              <caret line="100" column="44" selection-start-line="100" selection-start-column="40" selection-end-line="100" selection-end-column="44" />
               <folding>
                 <element signature="e#127#171#0#PHP" expanded="true" />
               </folding>
@@ -235,10 +228,10 @@
         <option value="$PROJECT_DIR$/format/user/FormatUser.php" />
         <option value="$PROJECT_DIR$/format/user/FormatUserList.php" />
         <option value="$PROJECT_DIR$/format/project/FormatProject.php" />
-        <option value="$PROJECT_DIR$/modules/v1/controllers/ProjectController.php" />
         <option value="$PROJECT_DIR$/services/project/ProjectRoleService.php" />
         <option value="$PROJECT_DIR$/services/project/ProjectUserService.php" />
         <option value="$PROJECT_DIR$/services/project/ProjectService.php" />
+        <option value="$PROJECT_DIR$/modules/v1/controllers/ProjectController.php" />
       </list>
     </option>
   </component>
@@ -691,12 +684,12 @@
       <workItem from="1543479772115" duration="2389000" />
       <workItem from="1544417456842" duration="4432000" />
       <workItem from="1546045651976" duration="24141000" />
-      <workItem from="1546135781773" duration="32354000" />
+      <workItem from="1546135781773" duration="33051000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152502000" />
+    <option name="totallyTimeSpent" value="153199000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1144" extended-state="0" />
@@ -1112,16 +1105,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/v1/controllers/ProjectController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="164" column="33" selection-start-line="164" selection-start-column="33" selection-end-line="164" selection-end-column="33" />
-          <folding>
-            <element signature="e#127#171#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/auth/UsersService.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1912">
@@ -1132,8 +1115,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/Project.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="7" />
+        <state relative-caret-position="621">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -1170,10 +1153,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/services/project/ProjectService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="78" column="26" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+        <state relative-caret-position="329">
+          <caret line="25" column="90" selection-start-line="25" selection-start-column="90" selection-end-line="25" selection-end-column="90" />
           <folding>
             <element signature="e#122#145#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/v1/controllers/ProjectController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="100" column="44" selection-start-line="100" selection-start-column="40" selection-end-line="100" selection-end-column="44" />
+          <folding>
+            <element signature="e#127#171#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
